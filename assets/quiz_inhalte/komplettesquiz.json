@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Wie lautet die Farbe für Gold?",
+    "2": "Wie lautet die Farbe für Gelb?",
+    "3": "dabeɛn?",
+    "4": "ɛhe?",
+    "5": "εte sεn? (informell)",
+    "6": "εyε.",
+    "7": "Welcher Konsonant existiert in der Sprache Twi?",
+    "8": "Welcher Konsonant existiert in der Sprache Twi?",
+    "9": "Was bedeutet nsuomunam? ",
+    "10": "Was bedeutet prɛkonam? ",
+    "11": "Wie lautet die Zahl 50 auf Twi?",
+    "12": "Wie lautet die Zahl 100 auf Twi?",
+    "13": "Welche Selbstlaute gibt es in der Sprache Twi?",
+    "14": "Welche Selbstlaute gibt es in der Sprache Twi?",
+    "15": "Wie heißt das Tier Falke auf Twi?"
+  },
+  {
+    "1": {
+      "a": "sika kɔkɔɔ",
+      "b": "bibire"
+    },
+    "2": {
+      "a": "akokɔsradeɛ",
+      "b": "memen"
+    },
+    "3": {
+      "a": "Wann?",
+      "b": "Wo?"
+    },
+    "4": {
+      "a": "Wohin?",
+      "b": "Wieso?"
+    },
+    "5": {
+      "a": "Wie geht es dir? (informell)",
+      "b": "Guten Appetit! (informell)"
+    },
+    "6": {
+      "a": "Gut (formelle Antwort auf wie geht es dir?)",
+      "b": "Von hier (informelle Antwort auf wie geht es dir?)"
+    },
+    "7": {
+      "a": "fe",
+      "b": "w"
+    },
+    "8": {
+      "a": "y",
+      "b": "we"
+    },
+    "9": {
+      "a": "Ei/Eier",
+      "b": "Fisch"
+    },
+    "10": {
+      "a": "Schweinefleisch",
+      "b": "Brot"
+    },
+    "11": {
+      "a": "aduonum",
+      "b": "ahanson"
+    },
+    "12": {
+      "a": "ɔha",
+      "b": "mpem nson"
+    },
+    "13": {
+      "a": "o",
+      "b": "d"
+    },
+    "14": {
+      "a": "ɔ",
+      "b": "p"
+    },
+    "15": {
+      "a": "akorɔma",
+      "b": "susono"
+    }
+  },
+  {
+    "1": "sika kɔkɔɔ",
+    "2": "akokɔsrade",
+    "3": "Wann?",
+    "4": "Wohin?",
+    "5": "Wie geht es dir? (informell)",
+    "6": "Gut (formelle Antwort auf wie geht es dir?)",
+    "7": "w",
+    "8": "y",
+    "9": "Fisch",
+    "10": "Schweinefleisch",
+    "11": "aduonum",
+    "12": "ɔha",
+    "13": "o",
+    "14": "ɔ",
+    "15": "akorɔma"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Was bedeutet gyeene? ",
+    "2": "Was bedeutet mako? ",
+    "3": "Was bedeutet ɛmo? ",
+    "4": "Was bedeutet aburo? ",
+    "5": "Was bedeutet ntoosi? ",
+    "6": "Was bedeutet akakaduro? ",
+    "7": "Was bedeutet nkyene? ",
+    "8": "Was bedeutet aborɔbɛ? ",
+    "9": "Was bedeutet kwadu? ",
+    "10": "Was bedeutet asikyire? ",
+    "11": "Was bedeutet ankaa? ",
+    "12": "Was bedeutet kosua? ",
+    "13": "Was bedeutet esam? ",
+    "14": "Was bedeutet paanoo/burodo? ",
+    "15": "Was bedeutet kube? "
+  },
+  {
+    "1": {
+      "a": "Zwiebeln",
+      "b": "Ei/Eier"
+    },
+    "2": {
+      "a": "Chilli Pfeffer",
+      "b": "Kokosnuss"
+    },
+    "3": {
+      "a": "Tomaten",
+      "b": "Reis"
+    },
+    "4": {
+      "a": "Orange",
+      "b": "Mais"
+    },
+    "5": {
+      "a": "Zucker",
+      "b": "Tomaten"
+    },
+    "6": {
+      "a": "Ingwer",
+      "b": "Mehl"
+    },
+    "7": {
+      "a": "Brot",
+      "b": "Salz"
+    },
+    "8": {
+      "a": "Rindfleisch",
+      "b": "Ananas"
+    },
+    "9": {
+      "a": "Banane",
+      "b": "Fisch"
+    },
+    "10": {
+      "a": "Zucker",
+      "b": "Schweinefleisch"
+    },
+    "11": {
+      "a": "Orange",
+      "b": "Ingwer"
+    },
+    "12": {
+      "a": "Salz",
+      "b": "Ei/Eier"
+    },
+    "13": {
+      "a": "Reis",
+      "b": "Mehl"
+    },
+    "14": {
+      "a": "Brot",
+      "b": "Kokosnuss"
+    },
+    "15": {
+      "a": "Zucker",
+      "b": "Kokosnuss"
+    }
+  },
+  {
+    "1": "Zwiebeln",
+    "2": "Chilli Pfeffer",
+    "3": "Reis",
+    "4": "Mais",
+    "5": "Tomaten",
+    "6": "Ingwer",
+    "7": "Salz",
+    "8": "Ananas",
+    "9": "Banane",
+    "10": "Zucker",
+    "11": "Orange",
+    "12": "Ei/Eier",
+    "13": "Mehl",
+    "14": "Brot",
+    "15": "Kokosnuss"
+  }
+]

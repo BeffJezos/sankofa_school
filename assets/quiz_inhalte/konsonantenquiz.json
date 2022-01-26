@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Welcher Konsonant existiert in der Sprache Twi?",
+    "2": "Welcher Konsonant existiert in der Sprache Twi?",
+    "3": "Welcher Konsonant existiert in der Sprache Twi?",
+    "4": "Welcher Konsonant existiert in der Sprache Twi?",
+    "5": "Welcher Konsonant existiert in der Sprache Twi?",
+    "6": "Welcher Konsonant existiert in der Sprache Twi?",
+    "7": "Welcher Konsonant existiert in der Sprache Twi?",
+    "8": "Welcher Konsonant existiert in der Sprache Twi?",
+    "9": "Welcher Konsonant existiert in der Sprache Twi?",
+    "10": "Welcher Konsonant existiert in der Sprache Twi?",
+    "11": "Welcher Konsonant existiert in der Sprache Twi?",
+    "12": "Welcher Konsonant existiert in der Sprache Twi?",
+    "13": "Welcher Konsonant existiert in der Sprache Twi?",
+    "14": "Welcher Konsonant existiert in der Sprache Twi?",
+    "15": "Welcher Konsonant existiert in der Sprache Twi?"
+  },
+  {
+    "1": {
+      "a": "b",
+      "b": "a"
+    },
+    "2": {
+      "a": "c",
+      "b": "d"
+    },
+    "3": {
+      "a": "f",
+      "b": "e"
+    },
+    "4": {
+      "a": "g",
+      "b": "i"
+    },
+    "5": {
+      "a": "h",
+      "b": "j"
+    },
+    "6": {
+      "a": "o",
+      "b": "k"
+    },
+    "7": {
+      "a": "l",
+      "b": "q"
+    },
+    "8": {
+      "a": "u",
+      "b": "m"
+    },
+    "9": {
+      "a": "v",
+      "b": "n"
+    },
+    "10": {
+      "a": "x",
+      "b": "p"
+    },
+    "11": {
+      "a": "t",
+      "b": "z"
+    },
+    "12": {
+      "a": "es",
+      "b": "s"
+    },
+    "13": {
+      "a": "t",
+      "b": "se"
+    },
+    "14": {
+      "a": "fe",
+      "b": "w"
+    },
+    "15": {
+      "a": "y",
+      "b": "we"
+    }
+  },
+  {
+    "1": "b",
+    "2": "d",
+    "3": "f",
+    "4": "g",
+    "5": "h",
+    "6": "k",
+    "7": "l",
+    "8": "m",
+    "9": "n",
+    "10": "p",
+    "11": "r.h",
+    "12": "s",
+    "13": "t",
+    "14": "w",
+    "15": "y"
+  }
+]

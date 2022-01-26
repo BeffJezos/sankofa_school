@@ -1,0 +1,97 @@
+[
+  {
+    "1": "Yɛferɛ wo sɛn?",
+    "2": "Yɛferɛ me …",
+    "3": "Yaa nua.",
+    "4": "Wo ﬁre he?",
+    "5": "Me ﬁri ...",
+    "6": "Wadi mfeɛ sɛn ?",
+    "7": "M’adi",
+    "8": "Wo ho te sen? (formell)",
+    "9": "εte sεn? (informell)",
+    "10": "εyε.",
+    "11": "Me ho yε.",
+    "12": "Me ma wo akye.",
+    "13": "Me ma wo aha.",
+    "14": "Me ma wo adwo.",
+    "15": "Yaa nua."
+  },
+  {
+    "1": {
+      "a": "Wie heißt du?",
+      "b": "Was machst du?"
+    },
+    "2": {
+      "a": "Ich heiße...",
+      "b": "Ich komme aus..."
+    },
+    "3": {
+      "a": "Antwort auf einen Gruß bei Person im gleichen Alter.",
+      "b": "Antwort auf einen Gruß bei älterer Person."
+    },
+    "4": {
+      "a": "Wie alt bist du?",
+      "b": "Woher kommst du?"
+    },
+    "5": {
+      "a": "Ich komme aus...",
+      "b": "Ich bin von hier."
+    },
+    "6": {
+      "a": "Wie alt bist du?",
+      "b": "Wie groß bist du?"
+    },
+    "7": {
+      "a": "Ich bin... Jahre alt.",
+      "b": "Ich bin... groß."
+    },
+    "8": {
+      "a": "Wie gehts es dir? (formell)",
+      "b": "Guten Abend! (formell)"
+    },
+    "9": {
+      "a": "Wie geht es dir? (informell)",
+      "b": "Guten Appetit! (informell)"
+    },
+    "10": {
+      "a": "Gut (formelle Antwort auf wie geht es dir?)",
+      "b": "Von hier (informelle Antwort auf wie geht es dir?)"
+    },
+    "11": {
+      "a": "Mir gehts es gut. (formell)",
+      "b": "Ich bedanke mich. (formell)"
+    },
+    "12": {
+      "a": "Guten Morgen.",
+      "b": "Guten Abend."
+    },
+    "13": {
+      "a": "Guten Mittag.",
+      "b": "Guten Nachmittag."
+    },
+    "14": {
+      "a": "Guten Abend.",
+      "b": "Gute Nacht."
+    },
+    "15": {
+      "a": "Antwort auf einen Gruß bei Person im gleichen Alter.",
+      "b": "Antwort auf einen Gruß bei älterer Person."
+    },
+  {
+    "1": "Wie heißt du?",
+    "2": "Ich heiße...",
+    "3": "Antwort auf einen Gruß bei Person im gleichen Alter.",
+    "4": "Woher kommst du?",
+    "5": "Ich komme aus....",
+    "6": "Wie alt bist du?",
+    "7": "Ich bin... Jahre alt.",
+    "8": "Wie geht es dir? (formell)",
+    "9": "Wie geht es dir? (informell)",
+    "10": "Gut (formelle Antwort auf wie geht es dir?)",
+    "11": "Mir gehts es gut. (formell)",
+    "12": "Guten Morgen.",
+    "13": "Guten Nachmittag.",
+    "14": "Guten Abends.",
+    "15": "Antwort auf einen Gruß bei Person im gleichen Alter."
+  }
+]

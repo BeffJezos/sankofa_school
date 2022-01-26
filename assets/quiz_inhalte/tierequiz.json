@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Wie heißt das Tier Katze auf Twi?",
+    "2": "Wie heißt das Tier Hund auf Twi?",
+    "3": "Wie heißt das Tier Maus auf Twi?",
+    "4": "Wie heißt das Tier Eidechse auf Twi?",
+    "5": "Wie heißt das Tier Ameise auf Twi?",
+    "6": "Wie heißt das Tier Heuschrecke auf Twi?",
+    "7": "Wie heißt das Tier Wespe auf Twi?",
+    "8": "Wie heißt das Tier Biene auf Twi?",
+    "9": "Wie heißt das Tier Ziege auf Twi?",
+    "10": "Wie heißt das Tier Schaf auf Twi?",
+    "11": "Wie heißt das Tier Kuh auf Twi?",
+    "12": "Wie heißt das Tier Stier auf Twi?",
+    "13": "Wie heißt das Tier Eule auf Twi?",
+    "14": "Wie heißt das Tier Ente auf Twi?",
+    "15": "Wie heißt das Tier Bär auf Twi?"
+  },
+  {
+    "1": {
+      "a": "ɔkɔdeɛ",
+      "b": "ɔkra/agyinamoa"
+    },
+    "2": {
+      "a": "akokɔ",
+      "b": "ɔkraman"
+    },
+    "3": {
+      "a": "anomaa/ntakraboa",
+      "b": "akura"
+    },
+    "4": {
+      "a": "koterɛ",
+      "b": "nyanyankyerɛ"
+    },
+    "5": {
+      "a": "tɛtea",
+      "b": "anomaa/ntakraboa"
+    },
+    "6": {
+      "a": "nyanyankyerɛ",
+      "b": "ntutummɛ"
+    },
+    "7": {
+      "a": "kotokurodu",
+      "b": "sonsono"
+    },
+    "8": {
+      "a": "ɛkoɔ",
+      "b": "wowa"
+    },
+    "9": {
+      "a": "nwansena",
+      "b": "apɔnkye/abirekyie"
+    },
+    "10": {
+      "a": "odwan",
+      "b": "tɛfrɛ"
+    },
+    "11": {
+      "a": "ɔbankuo/amankuo",
+      "b": "nantwie"
+    },
+    "12": {
+      "a": "nantwinini",
+      "b": "apan"
+    },
+    "13": {
+      "a": "patuo",
+      "b": "pataku; ofui"
+    },
+    "14": {
+      "a": "ɔdɛnkyɛm",
+      "b": "dabodabo"
+    },
+    "15": {
+      "a": "prako",
+      "b": "sisire"
+    }
+  },
+  {
+    "1": "ɔkra/agyinamoa",
+    "2": "ɔkraman",
+    "3": "akura",
+    "4": "koterɛ",
+    "5": "tɛtea",
+    "6": "ntutummɛ",
+    "7": "kotokurodu",
+    "8": "wowa",
+    "9": "apɔnkye/abirekyie",
+    "10": "odwan",
+    "11": "nantwie",
+    "12": "nantwinini",
+    "13": "patuo",
+    "14": "dabodabo",
+    "15": "sisire"
+  }
+]

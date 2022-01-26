@@ -1,0 +1,194 @@
+name: sankofa_school
+description: A language learning application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_size_text: ^3.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.4
+  splashscreen: ^1.2.0
+  url_launcher: ^6.0.18
+  font_awesome_flutter: ^9.2.0
+  getwidget: ^2.0.4
+  simple_gradient_text: ^1.2.2
+  assorted_layout_widgets: ^5.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  audioplayers: ^0.20.1
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+  assets:
+    - assets/alpha/
+    - assets/farben/
+    - assets/flaggen/
+    - assets/fragewoerterundrichtungsangaben/
+    - assets/haeufigetwisaetze/
+    - assets/konsonanten/
+    - assets/selbstlaute/
+    - assets/lebensmittel/
+    - assets/quiz_inhalte/
+    - assets/wochentage/
+    - assets/zahlen/
+    - assets/zeitangaben/
+    - assets/tiere/
+    - assets/widgetbilder/
+    - images/akwasi.jpg
+    - images/SankofaRichtigesLogo.png
+    - assets/images/thesac-sanky.jpg
+    - images/launch_image.png
+    - assets/images/Lingala.jpeg
+    - assets/images/Swahili.jpeg
+    - assets/images/unnamed.png
+    - assets/images/KomplettesQuizBild.jpeg
+    - assets/images/FarbenBild.jpeg
+    - assets/images/ZahlenBild.jpeg
+    - assets/images/LebensmittelBild.jpeg
+    - assets/images/WochenTageBild.jpeg
+    - assets/images/KonsonantenBild.jpeg
+    - assets/images/SelbstlauteBild.jpeg
+    - assets/images/HaeufigeTwiSaetzeBild.jpeg
+    - assets/images/FragewoerterBild.jpeg
+    - assets/images/ZeitangabenBild.jpeg
+    - assets/images/TiereBild.jpeg
+    - assets/images/okay.jpeg
+    - assets/images/good.jpeg
+    - assets/images/success.jpeg
+    - assets/images/SankofaNeuesBild1.jfif
+    - assets/images/SankofaNeuesBild2.jfif
+    - assets/images/SankofaNeuesBild3.jfif
+    - assets/images/SankofaNeuesBild4.jfif
+    - assets/images/SankofaNeuesBild5.jfif
+    - assets/images/SankofaNeuesBild6.jfif
+    - assets/images/SankofaNeuesBild7.jfif
+    - assets/images/Instagram.png
+    - assets/images/Instagram2.png
+    - assets/images/Instagram3.jfif
+    - assets/images/Instagram4.png
+    - assets/images/Instagram5.jfif
+    - assets/images/Instagram6.png
+    - assets/images/Instagram7.png
+    - assets/images/SankofaVogel.png
+    - assets/images/GoogleDrive.jfif
+    - assets/images/GoogleDrive2.png
+    - assets/images/Deutschland.png
+    - assets/quiz_inhalte/farbenquiz.json
+    - assets/quiz_inhalte/fragewoerterundrichtungsangabenquiz.json
+    - assets/quiz_inhalte/haeufigetwisaetzequiz.json
+    - assets/quiz_inhalte/komplettesquiz.json
+    - assets/quiz_inhalte/konsonantenquiz.json
+    - assets/quiz_inhalte/lebensmittelquiz.json
+    - assets/quiz_inhalte/numberquiz.json
+    - assets/quiz_inhalte/selbstlautequiz.json
+    - assets/quiz_inhalte/tierequiz.json
+    - assets/quiz_inhalte/wochentagequiz.json
+    - assets/quiz_inhalte/zeitangabenquiz.json
+    - assets/learning/alphabet.json
+    - assets/learning/colours.json
+    - assets/learning/consonants.json
+    - assets/learning/interrogatives.json
+    - assets/learning/numbers.json
+    - assets/learning/sentences.json
+    - assets/learning/times.json
+    - assets/learning/vowels.json
+    - assets/learning/weekdays.json
+    - assets/images/icons/alphabeticon.png
+    - assets/images/icons/coloursicon.png
+    - assets/images/icons/interrogativesicon.png
+    - assets/images/icons/sentencesicon.png
+    - assets/images/icons/consonantsicon.png
+    - assets/images/icons/vowelsicon.png
+    - assets/images/icons/weekdaysicon.png
+    - assets/images/icons/numbersicon.png
+    - assets/images/icons/timesicon.png
+    - assets/images/icons/foodsicon.png
+    - assets/images/icons/animalsicon.png
+    - assets/images/icons/quizicon.png
+
+
+  fonts:
+    - family: Circular
+      fonts:
+        - asset: fonts/CircularStd-Medium.ttf
+        - asset: fonts/CircularAir-Light.ttf
+          weight: 100
+        - asset: fonts/CircularStd-Bold.ttf
+          weight: 500
+    - family: Lucian
+      fonts:
+        - asset: fonts/Lucian Schoenschrift CAT.ttf
+
+
+
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,98 @@
+[
+  {
+    "1": "hwan?",
+    "2": "ɛhe?",
+    "3": "ɛdeɛn?",
+    "4": "ɛhe?",
+    "5": "dab3n?",
+    "6": "ɛhe?",
+    "7": "sɛn?",
+    "8": "adɛn?",
+    "9": "de3he",
+    "10": "nifa",
+    "11": "bɛnkum",
+    "12": "tee",
+    "13": "san bra",
+    "14": "ɛha",
+    "15": "ɛhɔ"
+  },
+  {
+    "1": {
+      "a": "Weshalb?",
+      "b": "Wer?"
+    },
+    "2": {
+      "a": "Wo?",
+      "b": "Wie?"
+    },
+    "3": {
+      "a": "Wann?",
+      "b": "Was?"
+    },
+    "4": {
+      "a": "Woher?",
+      "b": "Wirklich?"
+    },
+    "5": {
+      "a": "Wann?",
+      "b": "Wo?"
+    },
+    "6": {
+      "a": "Wohin?",
+      "b": "Wieso?"
+    },
+    "7": {
+      "a": "Wie?",
+      "b": "Warum?"
+    },
+    "8": {
+      "a": "Warum?",
+      "b": "Welches?"
+    },
+    "9": {
+      "a": "Weshalb?",
+      "b": "Welcher?"
+    },
+    "10": {
+      "a": "Oben",
+      "b": "Rechts"
+    },
+    "11": {
+      "a": "Links",
+      "b": "Unten"
+    },
+    "12": {
+      "a": "Geradeaus",
+      "b": "Links"
+    },
+    "13": {
+      "a": "Hinten",
+      "b": "Zurück"
+    },
+    "14": {
+      "a": "Zurück",
+      "b": "Hier"
+    },
+    "15": {
+      "a": "Hier",
+      "b": "Dort"
+    }
+  },
+  {
+    "1": "Wer?",
+    "2": "Wo?",
+    "3": "Was?",
+    "4": "Woher?",
+    "5": "Wann?",
+    "6": "Wohin?",
+    "7": "Wie?",
+    "8": "Warum?",
+    "9": "Welcher?",
+    "10": "Rechts",
+    "11": "Links",
+    "12": "Geradeaus",
+    "13": "Zurück",
+    "14": "Hier",
+    "15": "Dort"
+  }
+]

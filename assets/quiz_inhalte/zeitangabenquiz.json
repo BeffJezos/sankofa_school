@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Wofür steht die Zeitangabe ɛnne?",
+    "2": "Wofür steht die Zeitangabe ɛnnera?",
+    "3": "Wofür steht die Zeitangabe ɔkyena?",
+    "4": "Wofür steht die Zeitangabe ɛnnera akyi?",
+    "5": "Wofür steht die Zeitangabe anɔpa?",
+    "6": "Wofür steht die Zeitangabe awia?",
+    "7": "Wofür steht die Zeitangabe anwumerɛ?",
+    "8": "Wofür steht die Zeitangabe anadwo?",
+    "9": "Wofür steht die Zeitangabe seisei?",
+    "10": "Wofür steht die Zeitangabe ɛnyɛ daa?",
+    "11": "Wofür steht die Zeitangabe daa?",
+    "12": "Wofür steht die Zeitangabe dabi da?",
+    "13": "Wofür steht die Zeitangabe ntɛm?",
+    "14": "Wofür steht die Zeitangabe kane?",
+    "15": "Wofür steht die Zeitangabe ɔkyena akyi?"
+  },
+  {
+    "1": {
+      "a": "Heute",
+      "b": "früher"
+    },
+    "2": {
+      "a": "später",
+      "b": "Gestern"
+    },
+    "3": {
+      "a": "niemals",
+      "b": "Morgen"
+    },
+    "4": {
+      "a": "Vorgestern",
+      "b": "Heute"
+    },
+    "5": {
+      "a": "Morgens, Vormittag",
+      "b": "selten"
+    },
+    "6": {
+      "a": "früher",
+      "b": "Mittag"
+    },
+    "7": {
+      "a": "Nachmittag",
+      "b": "Minuten"
+    },
+    "8": {
+      "a": "Abend, Nacht",
+      "b": "Stunden"
+    },
+    "9": {
+      "a": "jetzt",
+      "b": "Uhr"
+    },
+    "10": {
+      "a": "selten",
+      "b": "Zeit"
+    },
+    "11": {
+      "a": "täglich",
+      "b": "oft, immer"
+    },
+    "12": {
+      "a": "manchmal",
+      "b": "niemals"
+    },
+    "13": {
+      "a": "schnell",
+      "b": "später"
+    },
+    "14": {
+      "a": "früher",
+      "b": "Übermorgen"
+    },
+    "15": {
+      "a": "schnell",
+      "b": "Übermorgen"
+    }
+  },
+  {
+    "1": "Heute",
+    "2": "Gestern",
+    "3": "Morgen",
+    "4": "Vorgestern",
+    "5": "Morgens, Vormittag",
+    "6": "Mittag",
+    "7": "Nachmittag",
+    "8": "Abend, Nacht",
+    "9": "jetzt",
+    "10": "selten",
+    "11": "oft, immer",
+    "12": "niemals",
+    "13": "schnell",
+    "14": "früher",
+    "15": "Übermorgen"
+  }
+]
