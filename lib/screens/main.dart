@@ -65,11 +65,11 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// TODO: 1. Introscreen
 
 // Todo: 5. Fortsetzen auf der HomePage
+//TODO Beim zurückgehen auf der gleichen Position wieder erscheinen und nicht ganz oben im Hauptmenü
+// TODO Ton beim Quiz
 
-// TODO: Quiz läuft ab ->  QuizHome
-// TODO: Quiz abbrechen -> QuizHome
 
 //TODO Lore Audio wurde zweimal benutzt bei Konsonanten
+//TODO Audio für Begrüßungen, Über mich, Konversation, Einkaufen und Wegweisung

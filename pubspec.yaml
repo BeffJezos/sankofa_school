@@ -74,6 +74,12 @@ flutter:
     - assets/zeitangaben/
     - assets/tiere/
     - assets/widgetbilder/
+    - assets/aboutme/
+    - assets/conversation/
+    - assets/hellobye/
+    - assets/shopping/
+    - assets/Wegweisung/
+    - assets/Icons/
     - images/akwasi.jpg
     - images/SankofaRichtigesLogo.png
     - assets/images/thesac-sanky.jpg
@@ -114,8 +120,8 @@ flutter:
     - assets/images/GoogleDrive2.png
     - assets/images/Deutschland.png
     - assets/quiz_inhalte/farbenquiz.json
-    - assets/quiz_inhalte/fragewoerterundrichtungsangabenquiz.json
-    - assets/quiz_inhalte/haeufigetwisaetzequiz.json
+    - assets/quiz_inhalte/fragerichtung.json
+    - assets/quiz_inhalte/twioft.json
     - assets/quiz_inhalte/komplettesquiz.json
     - assets/quiz_inhalte/konsonantenquiz.json
     - assets/quiz_inhalte/lebensmittelquiz.json
@@ -133,11 +139,16 @@ flutter:
     - assets/learning/times.json
     - assets/learning/vowels.json
     - assets/learning/weekdays.json
+    - assets/learning/aboutme.json
+    - assets/learning/conversations.json
+    - assets/learning/directions.json
+    - assets/learning/shopping.json
+    - assets/learning/wheretogo.json
     - assets/images/icons/alphabeticon.png
     - assets/images/icons/coloursicon.png
     - assets/images/icons/interrogativesicon.png
     - assets/images/icons/sentencesicon.png
-    - assets/images/icons/consonantsicon.png
+    - assets/images/icons/conversationicon.png
     - assets/images/icons/vowelsicon.png
     - assets/images/icons/weekdaysicon.png
     - assets/images/icons/numbersicon.png
@@ -145,6 +156,10 @@ flutter:
     - assets/images/icons/foodsicon.png
     - assets/images/icons/animalsicon.png
     - assets/images/icons/quizicon.png
+    - assets/images/icons/greetingsicon.png
+    - assets/images/icons/aboutmeicon.png
+    - assets/images/icons/shoppingicon.png
+    - assets/images/icons/directionsicon.png
 
 
   fonts:

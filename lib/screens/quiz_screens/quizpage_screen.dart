@@ -33,15 +33,15 @@ class Getjson extends StatelessWidget {
       assettoload = "assets/quiz_inhalte/konsonantenquiz.json";
     } else if (langname == "Selbstlaute") {
       assettoload = "assets/quiz_inhalte/selbstlautequiz.json";
-    } else if (langname == "Häufige Twi Sätze") {
-      assettoload = "assets/quiz_inhalte/haeufigetwisaetzequiz.json";
-    } else if (langname == "Fragewörter und Richtungsangaben") {
+    } else if (langname == "Twi Sätze") {
+      assettoload = "assets/quiz_inhalte/twioft.json";
+    } else if (langname == "Fragewörter") {
       assettoload =
-          "assets/quiz_inhalte/fragewoerterundrichtungsangabenquiz.json";
+          "assets/quiz_inhalte/fragerichtung.json";
     } else if (langname == "Zeitangaben") {
       assettoload = "assets/quiz_inhalte/zeitangabenquiz.json";
     } else if (langname == "Tiere") {
-      assettoload = "assets/quize/tierequiz.json";
+      assettoload = "assets/quiz_inhalte/tierequiz.json";
     }
   }
 
@@ -186,7 +186,7 @@ class _quizpageState extends State<quizpage> {
     canceltimer = false;
     timer = 30;
     setState(() {
-      if (j < 20) {
+      if (j < 15) {
         i = random_array[j];
         j++;
       } else {

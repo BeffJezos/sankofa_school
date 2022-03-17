@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
 import 'package:sankofa_school/screens/main.dart';
-import 'package:sankofa_school/screens/mainscreens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
@@ -20,7 +19,7 @@ class Json extends StatelessWidget {
       assettoload = "assets/learning/colours.json";
     } else if (topicname == "Fragewörter") {
       assettoload = "assets/learning/interrogatives.json";
-    } else if (topicname == "Häufige Twi-Sätze") {
+    } else if (topicname == "Begrüßungen") {
       assettoload = "assets/learning/sentences.json";
     } else if (topicname == "Konsonanten") {
       assettoload = "assets/learning/consonants.json";
@@ -30,6 +29,16 @@ class Json extends StatelessWidget {
       assettoload = "assets/learning/weekdays.json";
     } else if (topicname == "Zeitangaben") {
       assettoload = "assets/learning/times.json";
+    } else if (topicname == "Einkaufen") {
+      assettoload = "assets/learning/shopping.json";
+    } else if (topicname == "Konversation") {
+      assettoload = "assets/learning/conversations.json";
+    } else if (topicname == "Richtungsangaben") {
+      assettoload = "assets/learning/directions.json";
+    } else if (topicname == "Über mich") {
+      assettoload = "assets/learning/aboutme.json";
+    } else if (topicname == "Wegweisung") {
+      assettoload = "assets/wheretogo/.json";
     }
   }
 
@@ -272,7 +281,7 @@ class _quizpageState extends State<quizpage> {
               children: [
                 BackButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, HomePage.id);
+                    Navigator.pop(context);
                   },
                 ),
               ],

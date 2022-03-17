@@ -13,14 +13,14 @@ class QuizHome extends StatefulWidget {
 class _QuizHomeState extends State<QuizHome> {
   List<String> images = [
     "assets/images/icons/coloursicon.png",
-    "assets/images/icons/interrogativesicon.png",
-    "assets/images/icons/sentencesicon.png",
-    "assets/images/icons/consonantsicon.png",
-    "assets/images/icons/vowelsicon.png",
-    "assets/images/icons/weekdaysicon.png",
     "assets/images/icons/numbersicon.png",
-    "assets/images/icons/timesicon.png",
     "assets/images/icons/foodsicon.png",
+    "assets/images/icons/weekdaysicon.png",
+    "assets/images/icons/conversationicon.png",
+    "assets/images/icons/vowelsicon.png",
+    "assets/images/icons/sentencesicon.png",
+    "assets/images/icons/interrogativesicon.png",
+    "assets/images/icons/timesicon.png",
     "assets/images/icons/animalsicon.png",
     "assets/images/icons/quizicon.png",
   ];
@@ -215,22 +215,46 @@ class _QuizHomeState extends State<QuizHome> {
                       Row(
                         children: [
                           quizcard(
-                            "Farben",
-                            images[0],
-                            des[0],
+                            "Alle Themen",
+                            images[10],
+                            des[10],
                             colours1[0],
                             colours2[0],
                             colours3[0],
                             colours4[0],
+
                           ),
                           quizcard(
-                            "Zahlen",
-                            images[1],
-                            des[1],
+                            "Farben",
+                            images[0],
+                            des[0],
                             colours1[1],
                             colours2[1],
                             colours3[1],
                             colours4[1],
+
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          quizcard(
+                            "Fragewörter",
+                            images[7],
+                            des[7],
+                            colours1[2],
+                            colours2[2],
+                            colours3[2],
+                            colours4[2],
+                          ),
+                          quizcard(
+                            "Konsonanten",
+                            images[4],
+                            des[4],
+                            colours1[0],
+                            colours2[0],
+                            colours3[0],
+                            colours4[0],
                           ),
                         ],
                       ),
@@ -240,28 +264,6 @@ class _QuizHomeState extends State<QuizHome> {
                             "Lebensmittel",
                             images[2],
                             des[2],
-                            colours1[2],
-                            colours2[2],
-                            colours3[2],
-                            colours4[2],
-                          ),
-                          quizcard(
-                            "Wochentage",
-                            images[3],
-                            des[3],
-                            colours1[0],
-                            colours2[0],
-                            colours3[0],
-                            colours4[0],
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          quizcard(
-                            "Konsonanten",
-                            images[4],
-                            des[4],
                             colours1[1],
                             colours2[1],
                             colours3[1],
@@ -281,18 +283,18 @@ class _QuizHomeState extends State<QuizHome> {
                       Row(
                         children: [
                           quizcard(
-                            "Twi Sätze",
-                            images[6],
-                            des[6],
+                            "Tiere",
+                            images[9],
+                            des[9],
                             colours1[0],
                             colours2[0],
                             colours3[0],
                             colours4[0],
                           ),
                           quizcard(
-                            "Fragewörter",
-                            images[7],
-                            des[7],
+                            "Twi Sätze",
+                            images[6],
+                            des[6],
                             colours1[1],
                             colours2[1],
                             colours3[1],
@@ -303,18 +305,18 @@ class _QuizHomeState extends State<QuizHome> {
                       Row(
                         children: [
                           quizcard(
-                            "Zeitangaben",
-                            images[8],
-                            des[8],
+                            "Wochentage",
+                            images[3],
+                            des[3],
                             colours1[2],
                             colours2[2],
                             colours3[2],
                             colours4[2],
                           ),
                           quizcard(
-                            "Tiere",
-                            images[9],
-                            des[9],
+                            "Zahlen",
+                            images[1],
+                            des[1],
                             colours1[0],
                             colours2[0],
                             colours3[0],
@@ -325,9 +327,9 @@ class _QuizHomeState extends State<QuizHome> {
                       Row(
                         children: [
                           quizcard(
-                            "Alle Themen",
-                            images[10],
-                            des[10],
+                            "Zeitangaben",
+                            images[8],
+                            des[8],
                             colours1[1],
                             colours2[1],
                             colours3[1],

@@ -185,7 +185,7 @@ class AlphabetRectangleWithText extends StatelessWidget {
               functionality,
               textAlign: TextAlign.center,
               style: TextStyle(
-                  color: Colors.white30,
+                  color: Colors.white,
                   fontSize: 14.0,
                   fontWeight: FontWeight.bold),
             ),

@@ -17,7 +17,7 @@ class HomeScreen extends StatefulWidget {
   _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMixin<HomeScreen>  {
   @override
   Widget card(
       String topicname,
@@ -389,38 +389,53 @@ class _HomeScreenState extends State<HomeScreen> {
 
   List<String> items = [
     "Alphabet",
+    "Begrüßungen",
+    "Einkaufen",
     "Farben",
     "Fragewörter",
-    "Häufige Twi Sätze",
     "Konsonanten",
+    "Konversation",
+    "Richtungsangaben",
     "Selbstlaute",
+    "Über mich",
+    "Wegweisung",
     "Wochentage",
-    "Zahlen",
     "Zeitangaben",
+    "Zahlen",
   ];
 
   List<String> pictures = [
     "assets/images/icons/alphabeticon.png",
+    "assets/images/icons/greetingsicon.png",
+    "assets/images/icons/shoppingicon.png",
     "assets/images/icons/coloursicon.png",
     "assets/images/icons/interrogativesicon.png",
-    "assets/images/icons/sentencesicon.png",
-    "assets/images/icons/consonantsicon.png",
+    "assets/images/icons/conversationicon.png",
+    "assets/images/icons/conversationicon.png",
+    "assets/images/icons/directionsicon.png",
     "assets/images/icons/vowelsicon.png",
+    "assets/images/icons/aboutmeicon.png",
+    "assets/images/icons/directionsicon.png",
     "assets/images/icons/weekdaysicon.png",
-    "assets/images/icons/numbersicon.png",
     "assets/images/icons/timesicon.png",
+    "assets/images/icons/numbersicon.png",
   ];
 
   List<String> descriptions = [
     "Lerne die Buchstaben von Twi kennen",
+    "Die typischen Gruß- und Abschiedsformen",
+    "Alles was du zu einkaufen brauchst",
     "Eine kleine Einführung in die Welt der Farben",
     "Lerne die notwendigen Fragewörter kennen",
-    "Die wichtigsten Sätze aus dem Alltag",
     "Freunde dich mit den Konsonanten aus Twi an",
+    "Die grundlegenden Sprachmittel für jede Konversation",
+    "Alle üblichen Richtungsangaben werde dir hier aufgezeigt",
     "Lerne die Selbstlaute und ihre Aussprache",
-    "Jeder Tag birgt neue Zeit zum lernen",
-    "Hier lernst du die wichtigsten Zahlen kennen",
+    "Alles was du brauchst, um dich vorzustellen",
+    "Hier lernst du wie du nach dem Weg fragst",
+    "Auf eine erfolgreiche Woche",
     "Wie spät ist es?",
+    "Hier lernst du die wichtigsten Zahlen kennen",
   ];
 
   List<Color> colours1 = [
@@ -640,138 +655,169 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 Expanded(
-                  child: SingleChildScrollView(
-                    child: Center(
-                      child: SizedBox(
-                        height: 510,
-                        width: 380,
-                        child: ListView(
-                          children: [
-                            Row(
-                              children: [
-                                secondcard(
-                                  "Alphabet",
-                                  titel[0],
-                                  items[0],
-                                  pictures[0],
-                                  descriptions[0],
-                                  colours4[0],
-                                  colours1[0],
-                                  colours2[0],
-                                  colours3[0],
-                                ),
-                                card(
-                                  "Farben",
-                                  titel[1],
-                                  items[1],
-                                  pictures[1],
-                                  descriptions[1],
-                                  colours1[1],
-                                  colours2[1],
-                                  colours3[1],
-                                  colours4[1],
-                                ),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                card(
-                                  "Fragewörter",
-                                  titel[1],
-                                  items[2],
-                                  pictures[2],
-                                  descriptions[2],
-                                  colours1[2],
-                                  colours2[2],
-                                  colours3[2],
-                                  colours4[2],
-                                ),
-                                card(
-                                  "Häufige Twi-Sätze",
-                                  titel[1],
-                                  items[3],
-                                  pictures[3],
-                                  descriptions[3],
-                                  colours1[0],
-                                  colours2[0],
-                                  colours3[0],
-                                  colours4[0],
-                                ),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                card(
-                                  "Konsonanten",
-                                  titel[1],
-                                  items[4],
-                                  pictures[4],
-                                  descriptions[4],
-                                  colours1[1],
-                                  colours2[1],
-                                  colours3[1],
-                                  colours4[1],
-                                ),
-                                card(
-                                  "Selbstlaute",
-                                  titel[1],
-                                  items[5],
-                                  pictures[5],
-                                  descriptions[5],
-                                  colours1[2],
-                                  colours2[2],
-                                  colours3[2],
-                                  colours4[2],
-                                ),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                card(
-                                  "Wochentage",
-                                  titel[1],
-                                  items[6],
-                                  pictures[6],
-                                  descriptions[6],
-                                  colours1[0],
-                                  colours2[0],
-                                  colours3[0],
-                                  colours4[0],
-                                ),
-                                thirdcard(
-                                  "Zahlen",
-                                  titel[1],
-                                  items[7],
-                                  pictures[7],
-                                  descriptions[7],
-                                  colours1[1],
-                                  colours2[1],
-                                  colours3[1],
-                                  colours4[1],
-                                ),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                card(
-                                  "Zeitangaben",
-                                  titel[1],
-                                  items[8],
-                                  pictures[8],
-                                  descriptions[8],
-                                  colours1[2],
-                                  colours2[2],
-                                  colours3[2],
-                                  colours4[2],
-                                ),
-                                SizedBox(
-                                  height: 200,
-                                  width: 180,
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
+                  child: Center(
+                    child: SizedBox(
+                      height: 1000,
+                      width: 380,
+                      child: ListView(
+                        children: [
+                          Row(
+                            children: [
+                              secondcard(
+                                "Alphabet",
+                                titel[0],
+                                items[0],
+                                pictures[0],
+                                descriptions[0],
+                                colours4[0],
+                                colours1[0],
+                                colours2[0],
+                                colours3[0],
+                              ),
+                              card(
+                                "Begrüßungen",
+                                titel[1],
+                                items[1],
+                                pictures[1],
+                                descriptions[1],
+                                colours1[1],
+                                colours2[1],
+                                colours3[1],
+                                colours4[1],
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              card(
+                                "Einkaufen",
+                                titel[1],
+                                items[2],
+                                pictures[2],
+                                descriptions[2],
+                                colours1[2],
+                                colours2[2],
+                                colours3[2],
+                                colours4[2],
+                              ),
+                              card(
+                                "Farben",
+                                titel[1],
+                                items[3],
+                                pictures[3],
+                                descriptions[3],
+                                colours1[0],
+                                colours2[0],
+                                colours3[0],
+                                colours4[0],
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              card(
+                                "Fragewörter",
+                                titel[1],
+                                items[4],
+                                pictures[4],
+                                descriptions[4],
+                                colours1[1],
+                                colours2[1],
+                                colours3[1],
+                                colours4[1],
+                              ),
+                              card(
+                                "Konversation",
+                                titel[1],
+                                items[6],
+                                pictures[6],
+                                descriptions[6],
+                                colours1[2],
+                                colours2[2],
+                                colours3[2],
+                                colours4[2],
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              card(
+                                "Richtungsangaben",
+                                titel[1],
+                                items[7],
+                                pictures[7],
+                                descriptions[7],
+                                colours1[0],
+                                colours2[0],
+                                colours3[0],
+                                colours4[0],
+                              ),
+                              card(
+                                "Über mich",
+                                titel[1],
+                                items[9],
+                                pictures[9],
+                                descriptions[9],
+                                colours1[1],
+                                colours2[1],
+                                colours3[1],
+                                colours4[1],
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              card(
+                                "Wegweisung",
+                                titel[1],
+                                items[10],
+                                pictures[10],
+                                descriptions[10],
+                                colours1[2],
+                                colours2[2],
+                                colours3[2],
+                                colours4[2],
+                              ),
+                              card(
+                                "Wochentage",
+                                titel[1],
+                                items[11],
+                                pictures[11],
+                                descriptions[11],
+                                colours1[0],
+                                colours2[0],
+                                colours3[0],
+                                colours4[0],
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              card(
+                                "Zeitangaben",
+                                titel[1],
+                                items[12],
+                                pictures[12],
+                                descriptions[12],
+                                colours1[1],
+                                colours2[1],
+                                colours3[1],
+                                colours4[1],
+                              ),
+                              thirdcard(
+                                "Zahlen",
+                                titel[1],
+                                items[13],
+                                pictures[13],
+                                descriptions[13],
+                                colours1[2],
+                                colours2[2],
+                                colours3[2],
+                                colours4[2],
+                              ),
+                            ],
+                          )
+                        ],
                       ),
                     ),
                   ),
@@ -783,4 +829,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
+  @override
+  bool get wantKeepAlive => true;
 }
