@@ -63,7 +63,7 @@ flutter:
     - assets/alpha/
     - assets/farben/
     - assets/flaggen/
-    - assets/fragewoerterundrichtungsangaben/
+    - assets/richtungsangaben/
     - assets/haeufigetwisaetze/
     - assets/konsonanten/
     - assets/selbstlaute/

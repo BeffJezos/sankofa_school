@@ -38,7 +38,7 @@ class Json extends StatelessWidget {
     } else if (topicname == "Über mich") {
       assettoload = "assets/learning/aboutme.json";
     } else if (topicname == "Wegweisung") {
-      assettoload = "assets/wheretogo/.json";
+      assettoload = "assets/learning/wheretogo.json";
     }
   }
 
@@ -281,7 +281,7 @@ class _quizpageState extends State<quizpage> {
               children: [
                 BackButton(
                   onPressed: () {
-                    Navigator.pop(context);
+                    Navigator.pushNamed(context, HomePage.id);
                   },
                 ),
               ],
