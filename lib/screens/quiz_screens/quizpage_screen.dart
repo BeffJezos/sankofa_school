@@ -21,27 +21,26 @@ class Getjson extends StatelessWidget {
   setasset() {
     if (langname == "Alle Themen") {
       assettoload = "assets/quiz_inhalte/komplettesquiz.json";
+    } else if (langname == "Begrüßungen") {
+      assettoload = "assets/quiz_inhalte/grußquiz.json";
+    } else if (langname == "Einkaufen") {
+      assettoload = "assets/quiz_inhalte/einkaufsquiz.json";
     } else if (langname == "Farben") {
       assettoload = "assets/quiz_inhalte/farbenquiz.json";
-    } else if (langname == "Zahlen") {
-      assettoload = "assets/quiz_inhalte/numberquiz.json";
+    } else if (langname == "Fragewörter") {
+      assettoload = "assets/quiz_inhalte/fragerichtung.json";
+    } else if (langname == "Konversation") {
+      assettoload = "assets/quiz_inhalte/konversationsquiz.json";
     } else if (langname == "Lebensmittel") {
       assettoload = "assets/quiz_inhalte/lebensmittelquiz.json";
-    } else if (langname == "Wochentage") {
-      assettoload = "assets/quiz_inhalte/wochentagequiz.json";
-    } else if (langname == "Konsonanten") {
-      assettoload = "assets/quiz_inhalte/konsonantenquiz.json";
-    } else if (langname == "Selbstlaute") {
-      assettoload = "assets/quiz_inhalte/selbstlautequiz.json";
-    } else if (langname == "Twi Sätze") {
-      assettoload = "assets/quiz_inhalte/twioft.json";
-    } else if (langname == "Fragewörter") {
-      assettoload =
-          "assets/quiz_inhalte/fragerichtung.json";
-    } else if (langname == "Zeitangaben") {
-      assettoload = "assets/quiz_inhalte/zeitangabenquiz.json";
+    } else if (langname == "Richtungsangaben") {
+      assettoload = "assets/quiz_inhalte/richtungsangabenquiz.json";
     } else if (langname == "Tiere") {
       assettoload = "assets/quiz_inhalte/tierequiz.json";
+    } else if (langname == "Wochentage") {
+      assettoload = "assets/quiz_inhalte/wochentagequiz.json";
+    } else if (langname == "Zeitangaben") {
+      assettoload = "assets/quiz_inhalte/zeitangabenquiz.json";
     }
   }
 

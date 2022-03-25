@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Was bedeutet Worebɛyɛ deɛn wɔ Ghana?",
+    "2": "Was bedeutet Merebɛdi Holidays wɔ ha?",
+    "3": "Was bedeutet Meyɛ adwuma wɔ ha?",
+    "4": "Was bedeutet Mepɛ sɛ meyɛ adwuma wɔ ha?",
+    "5": "Was bedeutet Mete ha?",
+    "6": "Was bedeutet Mepɛ sɛ metu ba ha?",
+    "7": "Was bedeutet Mesua adeɛ wɔ ha?",
+    "8": "Was bedeutet Mepɛ sɛ mesua adeɛ wɔ ha?",
+    "9": "Was bedeutet Merebɛsera me ndamfofoɔ?",
+    "10": "Was bedeutet Merebɛsera m’adamfo?",
+    "11": "Was bedeutet Merebɛsera m’abusuafoɔ?",
+    "12": "Was bedeutet Worebɛyɛ deɛn wɔ Ghana?",
+    "13": "Was bedeutet Merebɛdi Holidays wɔ ha?",
+    "14": "Was bedeutet Meyɛ adwuma wɔ ha?",
+    "15": "Mepɛ sɛ meyɛ adwuma wɔ ha?"
+  },
+  {
+    "1": {
+      "a": "Was bringt dich nach Ghana?",
+      "b": "Ich möchte hier arbeiten"
+    },
+    "2": {
+      "a": "Ich arbeite hier",
+      "b": "Ich mache hier Urlaub"
+    },
+    "3": {
+      "a": "Ich arbeite hier",
+      "b": "Was bringt dich nach Ghana?"
+    },
+    "4": {
+      "a": "Ich möchte hier arbeiten",
+      "b": "Was bringt dich nach Ghana?"
+    },
+    "5": {
+      "a": "Ich besuche meine Familie",
+      "b": "Ich wohne hier"
+    },
+    "6": {
+      "a": "Ich möchte hierher ziehen",
+      "b": "Ich besuche meine Freunde"
+    },
+    "7": {
+      "a": "Ich studiere hier",
+      "b": "Ich möchte hier studieren"
+    },
+    "8": {
+      "a": "Was bringt dich nach Ghana?",
+      "b": "Ich möchte hier studieren"
+    },
+    "9": {
+      "a": "Ich mache hier Urlaub",
+      "b": "Ich besuche meine Freunde"
+    },
+    "10": {
+      "a": "Ich besuche mein*e Freund*in",
+      "b": "Ich arbeite hier"
+    },
+    "11": {
+      "a": "Ich besuche meine Familie",
+      "b": "Ich möchte hier arbeiten"
+    },
+    "12": {
+      "a": "Was bringt dich nach Ghana?",
+      "b": "Ich wohne hier"
+    },
+    "13": {
+      "a": "Ich mache hier Urlaub",
+      "b": "Ich möchte hierher ziehen"
+    },
+    "14": {
+      "a": "Ich arbeite hier",
+      "b": "Ich studiere hier"
+    },
+    "15": {
+      "a": "Ich möchte hier arbeiten",
+      "b": "Ich möchte hier studieren"
+    }
+  },
+  {
+    "1": "Was bringt dich nach Ghana?",
+    "2": "Ich mache hier Urlaub",
+    "3": "Ich arbeite hier",
+    "4": "Ich möchte hier arbeiten",
+    "5": "Ich wohne hier",
+    "6": "Ich möchte hierher ziehen",
+    "7": "Ich studiere hier",
+    "8": "Ich möchte hier studieren",
+    "9": "Ich besuche meine Freunde",
+    "10": "Ich besuche mein*e Freund*in",
+    "11": "Ich besuche meine Familie",
+    "12": "Was bringt dich nach Ghana?",
+    "13": "Ich mache hier Urlaub",
+    "14": "Ich arbeite hier",
+    "15": "Ich möchte hier arbeiten"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Was bedeutet ago(!)?",
+    "2": "Was bedeutet Woretɔ (wootɔ) deɛn?",
+    "3": "Was bedeutet (bayerɛ) no yɛ sɛn ?",
+    "4": "Was bedeutet Mepa wo kyɛw (mepaakyɛw) te so kakra",
+    "5": "Was bedeutet Mepa wo kyɛw (mepaakyɛw) te so kakra",
+    "6": "Was bedeutet Wowɔ (nkosua) anaa?",
+    "7": "Was bedeutet Meda wo ase (Medaase)",
+    "8": "Was bedeutet Yɛbɛhyia biom",
+    "9": "Was bedeutet ame(!)?",
+    "10": "Was bedeutet Meretɔ (meetɔ) ...",
+    "11": "Was bedeutet (bayerɛ) no yɛ ...",
+    "12": "Was bedeutet Aane, mewɔ bi",
+    "13": "Was bedeutet Dabi, menni bi",
+    "14": "Was bedeutet Yɛbɛhyia biom",
+    "15": "Was bedeutet ago(!)?"
+  },
+  {
+    "1": {
+      "a": "Hallo (Achtung)",
+      "b": "Hallo (Ich bin hier)"
+    },
+    "2": {
+      "a": "Was möchten Sie kaufen?",
+      "b": "Danke"
+    },
+    "3": {
+      "a": "Mir geht es gut",
+      "b": "Ich möchte … kaufen"
+    },
+    "4": {
+      "a": "(Die Yamswurzeln) kosten wie viel?",
+      "b": "Kannst du es mir bitte günstiger geben?"
+    },
+    "5": {
+      "a": "Machen sie's bitte ein bisschen günstiger",
+      "b": "Auf Wiedersehen, bis zum nächsten Mal"
+    },
+    "6": {
+      "a": "Haben Sie (Eier)?",
+      "b": "(Die Yamswurzeln) kosten wie viel?"
+    },
+    "7": {
+      "a": "Danke",
+      "b": "Ja, habe ich"
+    },
+    "8": {
+      "a": "Auf Wiedersehen",
+      "b": "Hallo (Achtung)"
+    },
+    "9": {
+      "a": "Hallo (Ich bin hier)",
+      "b": "Ich möchte … kaufen"
+    },
+    "10": {
+      "a": "Ich möchte … kaufen",
+      "b": "(Die Yamswurzeln) kosten wie viel?"
+    },
+    "11": {
+      "a": "Hallo (Achtung)",
+      "b": "(Die Yamswurzeln) kosten"
+    },
+    "12": {
+      "a": "Hallo (Achtung)",
+      "b": "Ja, habe ich"
+    },
+    "13": {
+      "a": "Ja, habe ich",
+      "b": "Nein, habe ich nicht"
+    },
+    "14": {
+      "a": "Hallo (Ich bin hier)",
+      "b": "Auf Wiedersehen, bis zum nächsten Mal"
+    },
+    "15": {
+      "a": "Hallo (Achtung)",
+      "b": "Hallo (Ich bin hier)"
+    }
+  },
+  {
+    "1": "Hallo (Achtung)",
+    "2": "Was möchten Sie kaufen?",
+    "3": "(Die Yamswurzeln) kosten wie viel?",
+    "4": "Kannst du es mir bitte günstiger geben?",
+    "5": "Machen sie's bitte ein bisschen günstiger",
+    "6": "Haben Sie (Eier)?",
+    "7": "Danke",
+    "8": "Auf Wiedersehen",
+    "9": "Hallo (Ich bin hier)",
+    "10": "Ich möchte … kaufen",
+    "11": "(Die Yamswurzeln) kosten",
+    "12": "Ja, habe ich",
+    "13": "Nein, habe ich nicht",
+    "14": "Auf Wiedersehen, bis zum nächsten Mal",
+    "15": "Hallo (Achtung)"
+  }
+]

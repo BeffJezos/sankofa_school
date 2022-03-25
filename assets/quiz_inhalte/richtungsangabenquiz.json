@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Was bedeutet nifa?",
+    "2": "Was bedeutet bɛnkum?",
+    "3": "Was bedeutet tee?",
+    "4": "Was bedeutet san bra?",
+    "5": "Was bedeutet ɛha?",
+    "6": "Was bedeutet ɛhɔ?",
+    "7": "Was bedeutet ɛbɛn?",
+    "8": "Was bedeutet ɛware?",
+    "9": "Was bedeutet nkwanta?",
+    "10": "Was bedeutet nifa?",
+    "11": "Was bedeutet bɛnkum?",
+    "12": "Was bedeutet tee?",
+    "13": "Was bedeutet san bra?",
+    "14": "Was bedeutet ɛha?",
+    "15": "Was bedeutet ɛhɔ?"
+  },
+  {
+    "1": {
+      "a": "Rechts",
+      "b": "Dort"
+    },
+    "2": {
+      "a": "Hier",
+      "b": "Links"
+    },
+    "3": {
+      "a": "Geradeaus",
+      "b": "(komm) zurück"
+    },
+    "4": {
+      "a": "(komm) zurück",
+      "b": "Geradeaus"
+    },
+    "5": {
+      "a": "Links",
+      "b": "Hier"
+    },
+    "6": {
+      "a": "Dort",
+      "b": "Rechts"
+    },
+    "7": {
+      "a": "Kreuzung",
+      "b": "In der Nähe von..."
+    },
+    "8": {
+      "a": "Weit entfernt",
+      "b": "Rechts"
+    },
+    "9": {
+      "a": "Kreuzung",
+      "b": "Links"
+    },
+    "10": {
+      "a": "Geradeaus",
+      "b": "Rechts"
+    },
+    "11": {
+      "a": "Links",
+      "b": "(komm) zurück"
+    },
+    "12": {
+      "a": "Hier",
+      "b": "Geradeaus"
+    },
+    "13": {
+      "a": "Weit entfernt",
+      "b": "(komm) zurück"
+    },
+    "14": {
+      "a": "Kreuzung",
+      "b": "Hier"
+    },
+    "15": {
+      "a": "Kreuzung",
+      "b": "Dort"
+    }
+  },
+  {
+    "1": "Rechts",
+    "2": "Links",
+    "3": "Geradeaus",
+    "4": "(komm) zurück",
+    "5": "Hier",
+    "6": "Dort",
+    "7": "In der Nähe von...",
+    "8": "Weit entfernt",
+    "9": "Kreuzung",
+    "10": "Rechts",
+    "11": "Links",
+    "12": "Geradeaus",
+    "13": "(komm) zurück",
+    "14": "Hier",
+    "15": "Dort"
+  }
+]

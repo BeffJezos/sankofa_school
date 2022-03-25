@@ -1,0 +1,98 @@
+[
+  {
+    "1": "Was bedeutet Akwaaba?",
+    "2": "Was bedeutet Wo ho te sεn?",
+    "3": "Was bedeutet Me ho yε?",
+    "4": "Was bedeutet na wo nso ε?",
+    "5": "Was bedeutet Me ma wo akye?",
+    "6": "Was bedeutet Maakye (Kurzform)",
+    "7": "Was bedeutet Me ma wo aha?",
+    "8": "Was bedeutet Maaha (Kurzform)?",
+    "9": "Was bedeutet Me ma wo adwo?",
+    "10": "Was bedeutet Maadwo?",
+    "11": "Was bedeutet Megye wo so?",
+    "12": "Was bedeutet Yɛbɛhyia biom?",
+    "13": "Was bedeutet Nante yie?",
+    "14": "Was bedeutet Da yie?",
+    "15": "Was bedeutet Akwaaba?"
+  },
+  {
+    "1": {
+      "a": "Willkommen",
+      "b": "Ich grüße zurück"
+    },
+    "2": {
+      "a": "Wie geht es dir?",
+      "b": "Guten Abend"
+    },
+    "3": {
+      "a": "Mir geht es gut",
+      "b": "Guten Tag"
+    },
+    "4": {
+      "a": "Und dir?",
+      "b": "Wie geht es dir?"
+    },
+    "5": {
+      "a": "Guten Morgen",
+      "b": "Gute Reise"
+    },
+    "6": {
+      "a": "Man sieht sich",
+      "b": "Guten Morgen"
+    },
+    "7": {
+      "a": "Guten Tag",
+      "b": "Gute Nacht/Schlaf gut"
+    },
+    "8": {
+      "a": "Guten Tag",
+      "b": "Guten Morgen"
+    },
+    "9": {
+      "a": "Guten Abend",
+      "b": "Guten Abend"
+    },
+    "10": {
+      "a": "Guten Abend",
+      "b": "Guten Abend"
+    },
+    "11": {
+      "a": "Ich grüße zurück",
+      "b": "Guten Tag"
+    },
+    "12": {
+      "a": "Man sieht sich",
+      "b": "Willkommen"
+    },
+    "13": {
+      "a": "Gute Nacht/Schlaf gut",
+      "b": "Gute Reise"
+    },
+    "14": {
+      "a": "Gute Nacht/Schlaf gut",
+      "b": "Guten Morgen"
+    },
+    "15": {
+      "a": "Gute Reise",
+      "b": "Willkommen"
+    }
+  },
+  {
+    "1": "Willkommen",
+    "2": "Wie geht es dir?",
+    "3": "Mir geht es gut",
+    "4": "Und dir?",
+    "5": "Guten Morgen",
+    "6": "Guten Morgen",
+    "7": "Guten Tag",
+    "8": "Guten Tag",
+    "9": "Guten Abend",
+    "10": "Guten Abend",
+    "11": "Ich grüße zurück",
+    "12": "Man sieht sich",
+    "13": "Gute Reise",
+    "14": "Gute Nacht/Schlaf gut",
+    "15": "Willkommen"
+  }
+]
