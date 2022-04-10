@@ -5,6 +5,7 @@ import 'results_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'quizhome_screen.dart';
+import 'package:audioplayers/audioplayers.dart';
 import 'package:sankofa_school/screens/quiz_screens/results_screen.dart';
 
 class Getjson extends StatelessWidget {
@@ -37,10 +38,16 @@ class Getjson extends StatelessWidget {
       assettoload = "assets/quiz_inhalte/richtungsangabenquiz.json";
     } else if (langname == "Tiere") {
       assettoload = "assets/quiz_inhalte/tierequiz.json";
+    } else if (langname == "Über mich") {
+      assettoload = "assets/quiz_inhalte/aboutmequiz.json";
+    } else if (langname == "Wegweisung") {
+      assettoload = "assets/quiz_inhalte/wegweisungsquiz.json";
     } else if (langname == "Wochentage") {
       assettoload = "assets/quiz_inhalte/wochentagequiz.json";
     } else if (langname == "Zeitangaben") {
       assettoload = "assets/quiz_inhalte/zeitangabenquiz.json";
+    } else if (langname == "Zahlen") {
+      assettoload = "assets/quiz_inhalte/numberquiz.json";
     }
   }
 
@@ -154,7 +161,10 @@ class _quizpageState extends State<quizpage> {
     starttimer();
     genrandomarray();
     super.initState();
+    player.play(mydata[3][i.toString()]);
   }
+
+  final player = AudioCache();
 
   // overriding the setstate function to be called only if mounted
   @override

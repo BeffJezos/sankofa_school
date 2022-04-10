@@ -4,17 +4,17 @@
     "2": "Wie lautet die Farbe für Gelb?",
     "3": "dabeɛn?",
     "4": "ɛhe?",
-    "5": "εte sεn? (informell)",
-    "6": "εyε.",
-    "7": "Welcher Konsonant existiert in der Sprache Twi?",
-    "8": "Welcher Konsonant existiert in der Sprache Twi?",
-    "9": "Was bedeutet nsuomunam? ",
-    "10": "Was bedeutet prɛkonam? ",
+    "5": "Wie lautet der Akan-Tag für Samstag?",
+    "6": "Wie lautet der Akan-Tag für Sonntag?",
+    "7": "Ich möchte hier arbeiten",
+    "8": "Ich wohne hier",
+    "9": "Was bedeutet gyeene? ",
+    "10": "Was bedeutet mako? ",
     "11": "Wie lautet die Zahl 50 auf Twi?",
     "12": "Wie lautet die Zahl 100 auf Twi?",
-    "13": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "14": "Welche Selbstlaute gibt es in der Sprache Twi?",
-    "15": "Wie heißt das Tier Falke auf Twi?"
+    "13": "Was bedeutet Yɛbɛhyia biom?",
+    "14": "Was bedeutet kɔ wo anim (Kɔwanim)?",
+    "15": "Wie heißt das Tier Eule auf Twi?"
   },
   {
     "1": {
@@ -34,27 +34,27 @@
       "b": "Wieso?"
     },
     "5": {
-      "a": "Wie geht es dir? (informell)",
-      "b": "Guten Appetit! (informell)"
+      "a": "Edwoda/Dwoada",
+      "b": "Memeneda"
     },
     "6": {
-      "a": "Gut (formelle Antwort auf wie geht es dir?)",
-      "b": "Von hier (informelle Antwort auf wie geht es dir?)"
+      "a": "Edwoda/Dwoada",
+      "b": "Kwasiada"
     },
     "7": {
-      "a": "fe",
-      "b": "w"
+      "a": "Mesua adeɛ wɔ ha",
+      "b": "Mepɛ sɛ meyɛ adwuma wɔ ha"
     },
     "8": {
-      "a": "y",
-      "b": "we"
+      "a": "Mepɛ sɛ meyɛ adwuma wɔ ha",
+      "b": "Mete ha"
     },
     "9": {
-      "a": "Ei/Eier",
+      "a": "Zwiebeln",
       "b": "Fisch"
     },
     "10": {
-      "a": "Schweinefleisch",
+      "a": "Chilli Pfeffer",
       "b": "Brot"
     },
     "11": {
@@ -66,16 +66,16 @@
       "b": "mpem nson"
     },
     "13": {
-      "a": "o",
-      "b": "d"
+      "a": "Links abbiegen",
+      "b": "Auf Wiedersehen"
     },
     "14": {
-      "a": "ɔ",
-      "b": "p"
+      "a": "Recht abbiegen",
+      "b": "Geradeaus und Links"
     },
     "15": {
-      "a": "akorɔma",
-      "b": "susono"
+      "a": "patuo",
+      "b": "pataku; ofui"
     }
   },
   {
@@ -83,16 +83,33 @@
     "2": "akokɔsrade",
     "3": "Wann?",
     "4": "Wohin?",
-    "5": "Wie geht es dir? (informell)",
-    "6": "Gut (formelle Antwort auf wie geht es dir?)",
-    "7": "w",
-    "8": "y",
-    "9": "Fisch",
-    "10": "Schweinefleisch",
+    "5": "Memeneda",
+    "6": "Kwasiada",
+    "7": "Mepɛ sɛ meyɛ adwuma wɔ ha",
+    "8": "Mete ha",
+    "9": "Zwiebeln",
+    "10": "Chilli Pfeffer",
     "11": "aduonum",
     "12": "ɔha",
-    "13": "o",
-    "14": "ɔ",
-    "15": "akorɔma"
+    "13": "Auf Wiedersehen",
+    "14": "Geradeaus und Links",
+    "15": "patuo"
+  },
+  {
+    "1": "farben/gold.mp3",
+    "2": "farben/gelb.mp3",
+    "3": "richtungsangaben/dabeen_.mp3",
+    "4": "richtungsangaben/ehe_.mp3",
+    "5": "wochentage/Samstag.mp3",
+    "6": "wochentage/Sonntag.mp3",
+    "7": "conversation/Mepe se meye adwuma wo ha.mp3",
+    "8": "conversation/Mete ha.mp3",
+    "9": "lebensmittel/Zwiebeln.mp3",
+    "10": "lebensmittel/Chilli Pfeffer.mp3",
+    "11": "zahlen/j.mp3",
+    "12": "zahlen/l.mp3",
+    "13": "Wegweisung/Yebehyia biom.mp3",
+    "14": "Wegweisung/Kowanim.mp3",
+    "15": "tiere/patuo.mp3"
   }
 ]

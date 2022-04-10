@@ -1,0 +1,115 @@
+[
+  {
+    "1": "Was bedeutet yεfrε wo sεn? (?) ",
+    "2": "Was bedeutet yεfrε me...?",
+    "3": "Was bedeutet Mepa wo kyεw ka biom?",
+    "4": "Was bedeutet Wofiri he? (?) ",
+    "5": "Was bedeutet Mefiri...?",
+    "6": "Was bedeutet Woyε Asanteni? (?)",
+    "7": "Was bedeutet Daabi menyε Asanteni?",
+    "8": "Was bedeutet Aane meyε Asanteni?",
+    "9": "Was bedeutet Wote he?(?)",
+    "10": "Was bedeutet Mete ...?",
+    "11": "Was bedeutet W’adi mfeε sεn?",
+    "12": "Was bedeutet M’adi mfeε...?",
+    "13": "Was bedeutet Woyε adwuma anaa?(?)",
+    "14": "Was bedeutet Aane meyε adwuma wɔ..?",
+    "15": "Was bedeutet Daabi menyε adwuma?"
+  },
+  {
+    "1": {
+      "a": "Wie heißt du?",
+      "b": "Arbeitest du?"
+    },
+    "2": {
+      "a": "Nein, Ich arbeite nicht.",
+      "b": "Ich heiße..."
+    },
+    "3": {
+      "a": "Entschuldigung, kannst du es wiederholen?",
+      "b": "Ja, Ich arbeite bei..."
+    },
+    "4": {
+      "a": "Woher kommst du?",
+      "b": "Wie alt bist du?"
+    },
+    "5": {
+      "a": "Ich komme aus...",
+      "b": "Ich bin ... Jahre alt."
+    },
+    "6": {
+      "a": "Wo wohnst du?",
+      "b": "Bist du Asante?"
+    },
+    "7": {
+      "a": "Ja, bin ich.",
+      "b": "Nein, ich bin nicht Asante."
+    },
+    "8": {
+      "a": "Ja, bin ich.",
+      "b": "Ich wohne in ..."
+    },
+    "9": {
+      "a": "Wo wohnst du?",
+      "b": "Wie alt bist du?"
+    },
+    "10": {
+      "a": "Ja, Ich arbeite bei...",
+      "b": "Ich wohne in ..."
+    },
+    "11": {
+      "a": "Wie alt bist du?",
+      "b": "Wie heißt du?"
+    },
+    "12": {
+      "a": "Ich bin ... Jahre alt.",
+      "b": "Ich komme aus..."
+    },
+    "13": {
+      "a": "Woher kommst du?",
+      "b": "Arbeitest du?"
+    },
+    "14": {
+      "a": "Ja, Ich arbeite bei...",
+      "b": "Ich komme aus..."
+    },
+    "15": {
+      "a": "Nein, Ich arbeite nicht.",
+      "b": "Nein, ich bin nicht Asante."
+    }
+  },
+  {
+    "1": "Wie heißt du?",
+    "2": "Ich heiße...",
+    "3": "Entschuldigung, kannst du es wiederholen?",
+    "4": "Woher kommst du?",
+    "5": "Ich komme aus...",
+    "6": "Bist du Asante?",
+    "7": "Nein, ich bin nicht Asante.",
+    "8": "Ja, bin ich.",
+    "9": "Wo wohnst du?",
+    "10": "Ich wohne in ...",
+    "11": "Wie alt bist du?",
+    "12": "Ich bin ... Jahre alt.",
+    "13": "Arbeitest du?",
+    "14": "Ja, Ich arbeite bei...",
+    "15": "Nein, Ich arbeite nicht."
+  },
+  {
+    "1": "aboutme/yeferewosen.mp3",
+    "2": "aboutme/yefereme.mp3",
+    "3": "aboutme/Mepa wo kyew ka biom.mp3",
+    "4": "aboutme/Wofirehe.mp3",
+    "5": "aboutme/Mefiri.mp3",
+    "6": "aboutme/Woye Asanteni.mp3",
+    "7": "aboutme/Daabi menye Asanteni.mp3",
+    "8": "aboutme/Wohotesen.mp3",
+    "9": "aboutme/Wote he?.mp3",
+    "10": "aboutme/eye.mp3",
+    "11": "aboutme/Wadimfeesen.mp3",
+    "12": "aboutme/Madi.mp3",
+    "13": "aboutme/Memawoaha.mp3",
+    "14": "aboutme/Aane meye adwuma wo.mp3",
+    "15": "aboutme/Daabi menye adwuma.mp3"
+  }
+]

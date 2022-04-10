@@ -14,7 +14,7 @@
     "12": "Was bedeutet kosua? ",
     "13": "Was bedeutet esam? ",
     "14": "Was bedeutet paanoo/burodo? ",
-    "15": "Was bedeutet kube? "
+    "15": "Was bedeutet kube?"
   },
   {
     "1": {
@@ -94,5 +94,22 @@
     "13": "Mehl",
     "14": "Brot",
     "15": "Kokosnuss"
+  },
+  {
+    "1": "lebensmittel/Zwiebeln.mp3",
+    "2": "lebensmittel/Chilli Pfeffer.mp3",
+    "3": "lebensmittel/Reis.mp3",
+    "4": "lebensmittel/Mais.mp3",
+    "5": "lebensmittel/Tomaten.mp3",
+    "6": "lebensmittel/Ingwer.mp3",
+    "7": "lebensmittel/Salz.mp3",
+    "8": "lebensmittel/Ananas.mp3",
+    "9": "lebensmittel/Banane.mp3",
+    "10": "lebensmittel/Zucker.mp3",
+    "11": "lebensmittel/Orange.mp3",
+    "12": "lebensmittel/Eier.mp3",
+    "13": "lebensmittel/Mehl.mp3",
+    "14": "lebensmittel/Brot.mp3",
+    "15": "lebensmittel/Kokosnuss.mp3"
   }
 ]

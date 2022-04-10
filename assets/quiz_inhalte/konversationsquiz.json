@@ -14,7 +14,7 @@
     "12": "Was bedeutet Worebɛyɛ deɛn wɔ Ghana?",
     "13": "Was bedeutet Merebɛdi Holidays wɔ ha?",
     "14": "Was bedeutet Meyɛ adwuma wɔ ha?",
-    "15": "Mepɛ sɛ meyɛ adwuma wɔ ha?"
+    "15": "Was bedeutet Mepɛ sɛ meyɛ adwuma wɔ ha?"
   },
   {
     "1": {
@@ -94,5 +94,22 @@
     "13": "Ich mache hier Urlaub",
     "14": "Ich arbeite hier",
     "15": "Ich möchte hier arbeiten"
+  },
+  {
+    "1": "conversation/Worobeye deen wo Ghana.mp3",
+    "2": "conversation/Merebedi Holidays wo ha.mp3",
+    "3": "conversation/Meye adwuma wo ha.mp3",
+    "4": "conversation/Mepe se meye adwuma wo ha.mp3",
+    "5": "conversation/Mete ha.mp3",
+    "6": "conversation/Mere se metu ba ha.mp3",
+    "7": "conversation/Mesua adee wo ha.mp3",
+    "8": "conversation/Mere se mesua adee wo ha.mp3",
+    "9": "conversation/Merebesera me ndamfofoo.mp3",
+    "10": "conversation/Merebesera madamfo.mp3",
+    "11": "conversation/Merebesera mabusuafoo.mp3",
+    "12": "conversation/Worobeye deen wo Ghana.mp3",
+    "13": "conversation/Merebedi Holidays wo ha.mp3",
+    "14": "conversation/Meye adwuma wo ha.mp3",
+    "15": "conversation/Mepe se meye adwuma wo ha.mp3"
   }
 ]

@@ -1,0 +1,115 @@
+[
+  {
+    "1": "Was bedeutet Mepa wo kyɛw  kyerɛ me ayaresabea kwan no ?",
+    "2": "Was bedeutet Mepa wo kyɛw kyerɛ me edwom kwan no?",
+    "3": "Was bedeutet Meda wo ase (Medaase)?",
+    "4": "Was bedeutet Yɛbɛhyia biom?",
+    "5": "Was bedeutet kɔ wo anim (Kɔwanim)?",
+    "6": "Was bedeutet Fa nifa?",
+    "7": "Was bedeutet Fa benkum?",
+    "8": "Was bedeutet Yɛbɛhyia biom?",
+    "9": "Was bedeutet Mepa wo kyɛw  kyerɛ me ayaresabea kwan no?",
+    "10": "Was bedeutet Mepa wo kyɛw kyerɛ me edwom kwan no?",
+    "11": "Was bedeutet Meda wo ase (Medaase)?",
+    "12": "Was bedeutet Yɛbɛhyia biom?",
+    "13": "Was bedeutet kɔ wo anim (Kɔwanim)?",
+    "14": "Was bedeutet Fa nifa?",
+    "15": "Was bedeutet Fa benkum?"
+  },
+  {
+    "1": {
+      "a": "Zeigen sie mir bitte den Weg zum Krankenhaus.",
+      "b": "Links abbiegen"
+    },
+    "2": {
+      "a": "Wie komme ich zum Strand?",
+      "b": "Wie komme ich zum Markt?"
+    },
+    "3": {
+      "a": "Danke",
+      "b": "Geradeaus und Links"
+    },
+    "4": {
+      "a": "Links abbiegen",
+      "b": "Auf Wiedersehen"
+    },
+    "5": {
+      "a": "Recht abbiegen",
+      "b": "Geradeaus und Links"
+    },
+    "6": {
+      "a": "Recht abbiegen",
+      "b": "Zeigen sie mir bitte den Weg zum Krankenhaus."
+    },
+    "7": {
+      "a": "Danke",
+      "b": "Links abbiegen"
+    },
+    "8": {
+      "a": "Auf Wiedersehen, bis zum nächsten Mal.",
+      "b": "Geradeaus und Links"
+    },
+    "9": {
+      "a": "Zeigen sie mir bitte den Weg zum Krankenhaus.",
+      "b": "Links abbiegen"
+    },
+    "10": {
+      "a": "Wie komme ich zum Strand?",
+      "b": "Wie komme ich zum Markt?"
+    },
+    "11": {
+      "a": "Danke",
+      "b": "Geradeaus und Links"
+    },
+    "12": {
+      "a": "Links abbiegen",
+      "b": "Auf Wiedersehen"
+    },
+    "13": {
+      "a": "Recht abbiegen",
+      "b": "Geradeaus und Links"
+    },
+    "14": {
+      "a": "Recht abbiegen",
+      "b": "Zeigen sie mir bitte den Weg zum Krankenhaus."
+    },
+    "15": {
+      "a": "Danke",
+      "b": "Links abbiegen"
+    }
+  },
+  {
+    "1": "Zeigen sie mir bitte den Weg zum Krankenhaus.",
+    "2": "Wie komme ich zum Markt?",
+    "3": "Danke",
+    "4": "Auf Wiedersehen",
+    "5": "Geradeaus und Links",
+    "6": "Recht abbiegen",
+    "7": "Links abbiegen",
+    "8": "Auf Wiedersehen, bis zum nächsten Mal.",
+    "9": "Zeigen sie mir bitte den Weg zum Krankenhaus.",
+    "10": "Wie komme ich zum Markt?",
+    "11": "Danke",
+    "12": "Auf Wiedersehen",
+    "13": "Geradeaus und Links",
+    "14": "Recht abbiegen",
+    "15": "Links abbiegen"
+  },
+  {
+    "1": "Wegweisung/Mepa wo kyew kyere me ayaresabea kwan no.mp3",
+    "2": "Wegweisung/Mepa wo kyew kyere me edwom kwan no.mp3",
+    "3": "Wegweisung/Medaase.mp3",
+    "4": "Wegweisung/Yebehyia biom.mp3",
+    "5": "Wegweisung/Kowanim.mp3",
+    "6": "Wegweisung/Fa nifa.mp3",
+    "7": "Wegweisung/Fa benkum.mp3",
+    "8": "Wegweisung/Yebehyia biom.mp3",
+    "9": "Wegweisung/Mepa wo kyew kyere me ayaresabea kwan no.mp3",
+    "10": "Wegweisung/Mepa wo kyew kyere me edwom kwan no.mp3",
+    "11": "Wegweisung/Medaase.mp3",
+    "12": "Wegweisung/Yebehyia biom.mp3",
+    "13": "Wegweisung/Kowanim.mp3",
+    "14": "Wegweisung/Fa nifa.mp3",
+    "15": "Wegweisung/Fa benkum.mp3"
+  }
+]
