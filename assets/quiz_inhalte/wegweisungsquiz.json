@@ -1,6 +1,6 @@
 [
   {
-    "1": "Was bedeutet Mepa wo kyɛw  kyerɛ me ayaresabea kwan no ?",
+    "1": "Was bedeutet Mepa wo kyɛw kyerɛ me ayaresabea kwan no ?",
     "2": "Was bedeutet Mepa wo kyɛw kyerɛ me edwom kwan no?",
     "3": "Was bedeutet Meda wo ase (Medaase)?",
     "4": "Was bedeutet Yɛbɛhyia biom?",
@@ -96,20 +96,20 @@
     "15": "Links abbiegen"
   },
   {
-    "1": "Wegweisung/Mepa wo kyew kyere me ayaresabea kwan no.mp3",
-    "2": "Wegweisung/Mepa wo kyew kyere me edwom kwan no.mp3",
-    "3": "Wegweisung/Medaase.mp3",
-    "4": "Wegweisung/Yebehyia biom.mp3",
-    "5": "Wegweisung/Kowanim.mp3",
-    "6": "Wegweisung/Fa nifa.mp3",
-    "7": "Wegweisung/Fa benkum.mp3",
-    "8": "Wegweisung/Yebehyia biom.mp3",
-    "9": "Wegweisung/Mepa wo kyew kyere me ayaresabea kwan no.mp3",
-    "10": "Wegweisung/Mepa wo kyew kyere me edwom kwan no.mp3",
-    "11": "Wegweisung/Medaase.mp3",
-    "12": "Wegweisung/Yebehyia biom.mp3",
-    "13": "Wegweisung/Kowanim.mp3",
-    "14": "Wegweisung/Fa nifa.mp3",
-    "15": "Wegweisung/Fa benkum.mp3"
+    "1": "wegweisung/Mepa ayaresabea.mp3",
+    "2": "wegweisung/Mepa edwom.mp3",
+    "3": "wegweisung/Medaase.mp3",
+    "4": "wegweisung/Yebehyia biom.mp3",
+    "5": "wegweisung/Kowanim.mp3",
+    "6": "wegweisung/Fa nifa.mp3",
+    "7": "wegweisung/Fa benkum.mp3",
+    "8": "wegweisung/Yebehyia biom.mp3",
+    "9": "wegweisung/Mepa ayaresabea.mp3",
+    "10": "wegweisung/Mepa edwom.mp3",
+    "11": "wegweisung/Medaase.mp3",
+    "12": "wegweisung/Yebehyia biom.mp3",
+    "13": "wegweisung/Kowanim.mp3",
+    "14": "wegweisung/Fa nifa.mp3",
+    "15": "wegweisung/Fa benkum.mp3"
   }
 ]

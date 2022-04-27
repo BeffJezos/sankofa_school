@@ -39,7 +39,7 @@ class _QuizHomeState extends State<QuizHome> {
     "Ein Quit über die richtigsten Richtungsangaben.",
     "Ein Quiz über die Tiere der Sprache Twi.",
     "Ein Quiz über über den Sprachgebrauch wenn man sich vorstellt.",
-    "EIn Quiz über den gängigen Sprachgebrauch bei einer Wegweisung.",
+    "EIn Quiz über den gängigen Sprachgebrauch bei einer wegweisung.",
     "Ein Quiz über die Wochentage der Sprache Twi.",
     "Ein Quiz über die Zahlen der Sprache Twi.",
     "Ein Quiz über die Zeitangaben der Sprache Twi.",
@@ -114,7 +114,7 @@ class _QuizHomeState extends State<QuizHome> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(16.0),
+                            padding: const EdgeInsets.fromLTRB(16, 16, 16, 4),
                             child: Align(
                               alignment: Alignment.centerLeft,
                               child: SafeArea(
@@ -122,15 +122,16 @@ class _QuizHomeState extends State<QuizHome> {
                                   langname,
                                   style: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 20,
                                       fontWeight: FontWeight.bold),
+                                  minFontSize: 16,
+                                  maxFontSize: 16,
                                   maxLines: 2,
                                 ),
                               ),
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(16.0),
+                            padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
                             child: Align(
                               alignment: Alignment.bottomLeft,
                               child: AutoSizeText(
@@ -138,6 +139,7 @@ class _QuizHomeState extends State<QuizHome> {
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 16),
                                 minFontSize: 14,
+                                maxFontSize: 14,
                                 maxLines: 3,
                               ),
                             ),
@@ -296,7 +298,7 @@ class _QuizHomeState extends State<QuizHome> {
                             colours4[0],
                           ),
                           quizcard(
-                            "Richtungsangaben",
+                            "Richtungen",
                             images[7],
                             des[7],
                             colours1[1],
@@ -331,7 +333,7 @@ class _QuizHomeState extends State<QuizHome> {
                       Row(
                         children: [
                           quizcard(
-                            "Wegweisung",
+                            "wegweisung",
                             images[10],
                             des[10],
                             colours1[1],

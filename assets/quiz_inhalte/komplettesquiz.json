@@ -1,29 +1,29 @@
 [
   {
-    "1": "Wie lautet die Farbe für Gold?",
-    "2": "Wie lautet die Farbe für Gelb?",
-    "3": "dabeɛn?",
-    "4": "ɛhe?",
-    "5": "Wie lautet der Akan-Tag für Samstag?",
-    "6": "Wie lautet der Akan-Tag für Sonntag?",
-    "7": "Ich möchte hier arbeiten",
-    "8": "Ich wohne hier",
-    "9": "Was bedeutet gyeene? ",
-    "10": "Was bedeutet mako? ",
-    "11": "Wie lautet die Zahl 50 auf Twi?",
-    "12": "Wie lautet die Zahl 100 auf Twi?",
+    "1": "Was bedeutet sika kɔkɔɔ?",
+    "2": "Was bedeutet akokɔsrade?",
+    "3": "Was bedeutet dab3n?",
+    "4": "Was bedeutet ɛhe?",
+    "5": "Was bedeutet Memeneda?",
+    "6": "Was bedeutet Kwasiada?",
+    "7": "Was bedeutet Mepɛ sɛ meyɛ adwuma wɔ ha?",
+    "8": "Was bedeutet Mete ha?",
+    "9": "Was bedeutet gyeene?",
+    "10": "Was bedeutet mako?",
+    "11": "Was bedeutet aduonum?",
+    "12": "Was bedeutet ɔha?",
     "13": "Was bedeutet Yɛbɛhyia biom?",
-    "14": "Was bedeutet kɔ wo anim (Kɔwanim)?",
-    "15": "Wie heißt das Tier Eule auf Twi?"
+    "14": "Was bedeutet kɔ wo anim (Kɔwanim)",
+    "15": "Was bedeutet patuo?"
   },
   {
     "1": {
-      "a": "sika kɔkɔɔ",
-      "b": "bibire"
+      "a": "Gold",
+      "b": "Blau"
     },
     "2": {
-      "a": "akokɔsradeɛ",
-      "b": "memen"
+      "a": "Gelb",
+      "b": "Rot"
     },
     "3": {
       "a": "Wann?",
@@ -34,20 +34,20 @@
       "b": "Wieso?"
     },
     "5": {
-      "a": "Edwoda/Dwoada",
-      "b": "Memeneda"
+      "a": "Samstag",
+      "b": "Freitag"
     },
     "6": {
-      "a": "Edwoda/Dwoada",
-      "b": "Kwasiada"
+      "a": "Donnerstag",
+      "b": "Sonntag"
     },
     "7": {
-      "a": "Mesua adeɛ wɔ ha",
-      "b": "Mepɛ sɛ meyɛ adwuma wɔ ha"
+      "a": "Ich möchte hier arbeiten",
+      "b": "Ich mache hier Urlaub"
     },
     "8": {
-      "a": "Mepɛ sɛ meyɛ adwuma wɔ ha",
-      "b": "Mete ha"
+      "a": "Ich wohne hier",
+      "b": "Ich möchte hier studieren"
     },
     "9": {
       "a": "Zwiebeln",
@@ -58,12 +58,12 @@
       "b": "Brot"
     },
     "11": {
-      "a": "aduonum",
-      "b": "ahanson"
+      "a": "50",
+      "b": "19"
     },
     "12": {
-      "a": "ɔha",
-      "b": "mpem nson"
+      "a": "100",
+      "b": "40"
     },
     "13": {
       "a": "Links abbiegen",
@@ -79,21 +79,21 @@
     }
   },
   {
-    "1": "sika kɔkɔɔ",
-    "2": "akokɔsrade",
+    "1": "Gold",
+    "2": "Gelb",
     "3": "Wann?",
     "4": "Wohin?",
-    "5": "Memeneda",
-    "6": "Kwasiada",
-    "7": "Mepɛ sɛ meyɛ adwuma wɔ ha",
-    "8": "Mete ha",
+    "5": "Samstag",
+    "6": "Sonntag",
+    "7": "Ich möchte hier arbeiten",
+    "8": "Ich wohne hier",
     "9": "Zwiebeln",
-    "10": "Chilli Pfeffer",
-    "11": "aduonum",
-    "12": "ɔha",
+    "10": "Pfeffer",
+    "11": "50",
+    "12": "100",
     "13": "Auf Wiedersehen",
     "14": "Geradeaus und Links",
-    "15": "patuo"
+    "15": "Eule"
   },
   {
     "1": "farben/gold.mp3",

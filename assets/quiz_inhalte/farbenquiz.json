@@ -1,99 +1,98 @@
 [
   {
-    "1": "Wie lautet die Farbe für Gold?",
-    "2": "Wie lautet die Farbe für Gelb?",
-    "3": "Wie lautet die Farbe für Grün?",
-    "4": "Wie lautet die Farbe für Weiß?",
-    "5": "Wie lautet die Farbe für Schwarz?",
-    "6": "Wie lautet die Farbe für Rot?",
-    "7": "Wie lautet die Farbe für Blau?",
-    "8": "Wie lautet die Farbe für Braun?",
-    "9": "Wie lautet die Farbe für Grau?",
-    "10": "Wie lautet die Farbe für Pink?",
-    "11": "Wie lautet die Farbe für Lila?",
-    "12": "Wie lautet die Farbe für Silber?",
-    "13": "Wie lautet die Farbe für Schwarz?",
-    "14": "Wie lautet die Farbe für Rot?",
-    "15": "Wie lautet die Farbe für Blau?"
+    "1": "Welche Farbe ist sika kɔkɔɔ?",
+    "2": "Welche Farbe ist akokɔsrade?",
+    "3": "Welche Farbe ist ahaban mono?",
+    "4": "Welche Farbe ist ﬁtaa/fufuo?",
+    "5": "Welche Farbe ist tuntum?",
+    "6": "Welche Farbe ist kɔkɔɔ?",
+    "7": "Welche Farbe ist bibire?",
+    "8": "Welche Farbe ist dodoeɛ?",
+    "9": "Welche Farbe ist nsonso?",
+    "10": "Welche Farbe ist memen?",
+    "11": "Welche Farbe ist beredum/afasebiri?",
+    "12": "Welche Farbe ist dwetɛ?",
+    "13": "Welche Farbe ist tuntum?",
+    "14": "Welche Farbe ist kɔkɔɔ?",
+    "15": "Welche Farbe ist bibire?"
   },
   {
     "1": {
-      "a": "sika kɔkɔɔ",
-      "b": "bibire"
+      "a": "Gold",
+      "b": "Blau"
     },
     "2": {
-      "a": "akokɔsradeɛ",
-      "b": "memen"
+      "a": "Gelb",
+      "b": "Rot"
     },
     "3": {
-      "a": "ahaban mono",
-      "b": "tuntum"
+      "a": "Grün",
+      "b": "Schwarz"
     },
     "4": {
-      "a": "nsonso",
-      "b": "ﬁtaa/fufuo"
+      "a": "Weiß",
+      "b": "Silber"
     },
     "5": {
-      "a": "tuntum",
-      "b": "dodoeɛ"
+      "a": "Lila",
+      "b": "Schwarz"
     },
     "6": {
-      "a": "kɔkɔɔ",
-      "b": "dwetɛ"
+      "a": "Pink",
+      "b": "Rot"
     },
     "7": {
-      "a": "beredum/afasebiri",
-      "b": "bibire"
+      "a": "Pink",
+      "b": "Blau"
     },
     "8": {
-      "a": "dodoeɛ",
-      "b": "nsonso"
+      "a": "Grau",
+      "b": "Braun"
     },
     "9": {
-      "a": "ahabammono",
-      "b": "nsonso"
+      "a": "Grau",
+      "b": "Gold"
     },
     "10": {
-      "a": "memen",
-      "b": "sika kɔkɔɔ"
+      "a": "Gelb",
+      "b": "Pink"
     },
     "11": {
-      "a": "dodoeɛ",
-      "b": "beredum/afasebiri"
+      "a": "Grün",
+      "b": "Lila"
     },
     "12": {
-      "a": "bibire",
-      "b": "dwetɛ"
+      "a": "Silber",
+      "b": "Weiß"
     },
     "13": {
-      "a": "dodoeɛ",
-      "b": "tuntum"
+      "a": "Blau",
+      "b": "Schwarz"
     },
     "14": {
-      "a": "dwetɛ",
-      "b": "kɔkɔɔ"
+      "a": "Rot",
+      "b": "Weiß"
     },
     "15": {
-      "a": "bibire",
-      "b": "beredum/afasebiri"
+      "a": "Blau",
+      "b": "Grün"
     }
   },
   {
-    "1": "sika kɔkɔɔ",
-    "2": "akokɔsrade",
-    "3": "ahaban mono",
-    "4": "ﬁtaa/fufuo",
-    "5": "tuntum",
-    "6": "kɔkɔɔ",
-    "7": "bibire",
-    "8": "dodoeɛ",
-    "9": "nsonso",
-    "10": "memen",
-    "11": "beredum/afasebiri",
-    "12": "dwetɛ",
-    "13": "tuntum",
-    "14": "kɔkɔɔ",
-    "15": "bibire"
+    "1": "Gold",
+    "2": "Gelb",
+    "3": "Grün",
+    "4": "Weiß",
+    "5": "Schwarz",
+    "6": "Rot",
+    "7": "Blau",
+    "8": "Braun",
+    "9": "Grau",
+    "10": "Pink",
+    "11": "Lila",
+    "12": "Silber",
+    "13": "Schwarz",
+    "14": "Rot"
   },
   {
     "1": "farben/gold.mp3",

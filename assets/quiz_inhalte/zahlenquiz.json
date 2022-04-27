@@ -1,0 +1,115 @@
+[
+  {
+    "1": "Welche Zahl ist mmienu?",
+    "2": "Welche Zahl ist ɛnan?",
+    "3": "Welche Zahl ist nkron?",
+    "4": "Welche Zahl ist dunan?",
+    "5": "Welche Zahl ist dunum?",
+    "6": "Welche Zahl ist dunkron?",
+    "7": "Welche Zahl ist aduonu baako?",
+    "8": "Welche Zahl ist aduasa?",
+    "9": "Welche Zahl ist aduanan?",
+    "10": "Welche Zahl ist aduonum?",
+    "11": "Welche Zahl ist aduɔson",
+    "12": "Welche Zahl ist ɔha?",
+    "13": "Welche Zahl ist ɔha ne du?",
+    "14": "Welche Zahl ist ɔha ne aduonu?",
+    "15": "Welche Zahl ist ɔha ne aduonu mmienu?"
+  },
+  {
+    "1": {
+      "a": "2",
+      "b": "15"
+    },
+    "2": {
+      "a": "4",
+      "b": "19"
+    },
+    "3": {
+      "a": "9",
+      "b": "21"
+    },
+    "4": {
+      "a": "30",
+      "b": "14"
+    },
+    "5": {
+      "a": "15",
+      "b": "40"
+    },
+    "6": {
+      "a": "19",
+      "b": "50"
+    },
+    "7": {
+      "a": "21",
+      "b": "70"
+    },
+    "8": {
+      "a": "100",
+      "b": "30"
+    },
+    "9": {
+      "a": "4",
+      "b": "40"
+    },
+    "10": {
+      "a": "50",
+      "b": "9"
+    },
+    "11": {
+      "a": "14",
+      "b": "70"
+    },
+    "12": {
+      "a": "100",
+      "b": "15"
+    },
+    "13": {
+      "a": "30",
+      "b": "110"
+    },
+    "14": {
+      "a": "120",
+      "b": "21"
+    },
+    "15": {
+      "a": "122",
+      "b": "19"
+    }
+  },
+  {
+    "1": "2",
+    "2": "4",
+    "3": "9",
+    "4": "14",
+    "5": "15",
+    "6": "19",
+    "7": "21",
+    "8": "30",
+    "9": "40",
+    "10": "50",
+    "11": "70",
+    "12": "100",
+    "13": "110",
+    "14": "120",
+    "15": "122"
+  },
+  {
+    "1": "zahlen/a.mp3",
+    "2": "zahlen/b.mp3",
+    "3": "zahlen/c.mp3",
+    "4": "zahlen/d.mp3",
+    "5": "zahlen/e.mp3",
+    "6": "zahlen/f.mp3",
+    "7": "zahlen/g.mp3",
+    "8": "zahlen/h.mp3",
+    "9": "zahlen/i.mp3",
+    "10": "zahlen/j.mp3",
+    "11": "zahlen/k.mp3",
+    "12": "zahlen/l.mp3",
+    "13": "zahlen/m.mp3",
+    "14": "zahlen/n.mp3",
+    "15": "zahlen/o.mp3"
+  }
+]

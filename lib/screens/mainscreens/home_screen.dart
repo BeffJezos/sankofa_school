@@ -399,7 +399,7 @@ class _HomeScreenState extends State<HomeScreen>
     "Richtungsangaben",
     "Tiere",
     "Über mich",
-    "Wegweisung",
+    "wegweisung",
     "Wochentage",
     "Zahlen",
     "Zeitangaben",
@@ -795,7 +795,7 @@ class _HomeScreenState extends State<HomeScreen>
                           Row(
                             children: [
                               card(
-                                "Wegweisung",
+                                "wegweisung",
                                 titel[1],
                                 items[10],
                                 pictures[10],

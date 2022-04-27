@@ -72,4 +72,4 @@ class HomePage extends StatelessWidget {
 
 
 //TODO Lore Audio wurde zweimal benutzt bei Konsonanten
-//TODO Audio für Begrüßungen, Über mich, Konversation, Einkaufen und Wegweisung
+//TODO Audio für Begrüßungen, Über mich, Konversation, Einkaufen und wegweisung

@@ -1,99 +1,99 @@
 [
   {
-    "1": "Wie lautet der Akan-Tag für Montag?",
-    "2": "Wie lautet der Akan-Tag für Dienstag?",
-    "3": "Wie lautet der Akan-Tag für Mittwoch?",
-    "4": "Wie lautet der Akan-Tag für Donnerstag?",
-    "5": "Wie lautet der Akan-Tag für Freitag?",
-    "6": "Wie lautet der Akan-Tag für Samstag?",
-    "7": "Wie lautet der Akan-Tag für Sonntag?",
-    "8": "Wie lautet der Akan-Tag für Montag?",
-    "9": "Wie lautet der Akan-Tag für Dienstag?",
-    "10": "Wie lautet der Akan-Tag für Mittwoch?",
-    "11": "Wie lautet der Akan-Tag für Donnerstag?",
-    "12": "Wie lautet der Akan-Tag für Freitag?",
-    "13": "Wie lautet der Akan-Tag für Samstag?",
-    "14": "Wie lautet der Akan-Tag für Sonntag?",
-    "15": "Wie lautet der Akan-Tag für Samstag?"
+    "1": "Wie lautet der Akan-Tag für Edwoda/Dwoada?",
+    "2": "Wie lautet der Akan-Tag für Ebenada/Benada?",
+    "3": "Wie lautet der Akan-Tag für Wukuada?",
+    "4": "Wie lautet der Akan-Tag für Yawoada?",
+    "5": "Wie lautet der Akan-Tag für Efiada/Fiada?",
+    "6": "Wie lautet der Akan-Tag für Memeneda?",
+    "7": "Wie lautet der Akan-Tag für Kwasiada?",
+    "8": "Wie lautet der Akan-Tag für Edwoda/Dwoada?",
+    "9": "Wie lautet der Akan-Tag für Ebenada/Benada?",
+    "10": "Wie lautet der Akan-Tag für Wukuada?",
+    "11": "Wie lautet der Akan-Tag für Yawoada?",
+    "12": "Wie lautet der Akan-Tag für Efiada/Fiada?",
+    "13": "Wie lautet der Akan-Tag für Memeneda?",
+    "14": "Wie lautet der Akan-Tag für Kwasiada?",
+    "15": "Wie lautet der Akan-Tag für Memeneda?"
   },
   {
     "1": {
-      "a": "Memeneda",
-      "b": "Edwoda/Dwoada"
+      "a": "Montag",
+      "b": "Sonntag"
     },
     "2": {
-      "a": "Efiada/Fiada",
-      "b": "Ebenada/Benada"
+      "a": "Freitag",
+      "b": "Dienstag"
     },
     "3": {
-      "a": "Wukuada",
-      "b": "Kwasiada"
+      "a": "Donnerstag",
+      "b": "Mittwoch"
     },
     "4": {
-      "a": "Ebenada/Benada",
-      "b": "Yawoada"
+      "a": "Donnerstag",
+      "b": "Sonntag"
     },
     "5": {
-      "a": "Efiada/Fiada",
-      "b": "Memeneda"
+      "a": "Freitag",
+      "b": "Dienstag"
     },
     "6": {
-      "a": "Memeneda",
-      "b": "Edwoda/Dwoada"
+      "a": "Montag",
+      "b": "Samstag"
     },
     "7": {
-      "a": "Kwasiada",
-      "b": "Edwoda/Dwoada"
+      "a": "Dienstag",
+      "b": "Sonntag"
     },
     "8": {
-      "a": "Edwoda/Dwoada",
-      "b": "Memeneda"
+      "a": "Montag",
+      "b": "Donnerstag"
     },
     "9": {
-      "a": "Ebenada/Benada",
-      "b": "Efiada/Fiada"
+      "a": "Dienstag",
+      "b": "Freitag"
     },
     "10": {
-      "a": "Kwasiada",
-      "b": "Wukuada"
+      "a": "Sonntag",
+      "b": "Mittwoch"
     },
     "11": {
-      "a": "Yawoada",
-      "b": "Ebenada/Benada"
+      "a": "Mittwoch",
+      "b": "Donnerstag"
     },
     "12": {
-      "a": "Memeneda",
-      "b": "Efiada/Fiada"
+      "a": "Freitag",
+      "b": "Samstag"
     },
     "13": {
-      "a": "Edwoda/Dwoada",
-      "b": "Memeneda"
+      "a": "Samstag",
+      "b": "Dienstag"
     },
     "14": {
-      "a": "Edwoda/Dwoada",
-      "b": "Kwasiada"
+      "a": "Freitag",
+      "b": "Sonntag"
     },
     "15": {
-      "a": "Edwoda/Dwoada",
-      "b": "Memeneda"
+      "a": "Montag",
+      "b": "Mittwoch"
     }
   },
   {
-    "1": "Edwoda/Dwoada",
-    "2": "Ebenada/Benada",
-    "3": "Wukuada",
-    "4": "Yawoada",
-    "5": "Efiada/Fiada",
-    "6": "Memeneda",
-    "7": "Kwasiada",
-    "8": "Edwoda/Dwoada",
-    "9": "Ebenada/Benada",
-    "10": "Wukuada",
-    "11": "Yawoada",
-    "12": "Efiada/Fiada",
-    "13": "Memeneda",
-    "14": "Kwasiada",
-    "15": "Memeneda"
+    "1": "Montag",
+    "2": "Dienstag",
+    "3": "Mittwoch",
+    "4": "Donnerstag",
+    "5": "Freitag",
+    "6": "Samstag",
+    "7": "Sonntag",
+    "8": "Montag",
+    "9": "Dienstag",
+    "10": "Mittwoch",
+    "11": "Donnerstag",
+    "12": "Freitag",
+    "13": "Samstag",
+    "14": "Sonntag",
+    "15": "Samstag"
   },
   {
     "1": "wochentage/Montag.mp3",

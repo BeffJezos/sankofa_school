@@ -34,20 +34,20 @@ class Getjson extends StatelessWidget {
       assettoload = "assets/quiz_inhalte/konversationsquiz.json";
     } else if (langname == "Lebensmittel") {
       assettoload = "assets/quiz_inhalte/lebensmittelquiz.json";
-    } else if (langname == "Richtungsangaben") {
+    } else if (langname == "Richtungen") {
       assettoload = "assets/quiz_inhalte/richtungsangabenquiz.json";
     } else if (langname == "Tiere") {
       assettoload = "assets/quiz_inhalte/tierequiz.json";
     } else if (langname == "Über mich") {
       assettoload = "assets/quiz_inhalte/aboutmequiz.json";
-    } else if (langname == "Wegweisung") {
+    } else if (langname == "wegweisung") {
       assettoload = "assets/quiz_inhalte/wegweisungsquiz.json";
     } else if (langname == "Wochentage") {
       assettoload = "assets/quiz_inhalte/wochentagequiz.json";
+    } else if (langname == "Zahlen") {
+      assettoload = "assets/quiz_inhalte/zahlenquiz.json";
     } else if (langname == "Zeitangaben") {
       assettoload = "assets/quiz_inhalte/zeitangabenquiz.json";
-    } else if (langname == "Zahlen") {
-      assettoload = "assets/quiz_inhalte/numberquiz.json";
     }
   }
 
@@ -194,20 +194,25 @@ class _quizpageState extends State<quizpage> {
   void nextquestion() {
     canceltimer = false;
     timer = 30;
-    setState(() {
-      if (j < 15) {
-        i = random_array[j];
-        j++;
-      } else {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
-          builder: (context) => Resultpage(marks: marks),
-        ));
-      }
-      btncolor["a"] = Color.fromRGBO(250, 139, 134, 1);
-      btncolor["b"] = Color.fromRGBO(255, 171, 147, 1);
-      disableAnswer = false;
-    });
+    setState(
+      () {
+        if (j < 15) {
+          i = random_array[j];
+          j++;
+        } else {
+          Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (context) => Resultpage(marks: marks),
+          ));
+        }
+        btncolor["a"] = Color.fromRGBO(250, 139, 134, 1);
+        btncolor["b"] = Color.fromRGBO(255, 171, 147, 1);
+        disableAnswer = false;
+      },
+    );
     starttimer();
+    player.play(
+      mydata[3][i.toString()],
+    );
   }
 
   void checkanswer(String k) {
@@ -225,6 +230,7 @@ class _quizpageState extends State<quizpage> {
       // just a print sattement to check the correct working
       // debugPrint(mydata[2]["1"] + " is equal to " + mydata[1]["1"][k]);
       colortoshow = wrong;
+      player.play(mydata[3][i.toString()]);
     }
     setState(() {
       // applying the changed color to the particular button that was selected
