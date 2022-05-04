@@ -96,20 +96,20 @@
     "15": "122"
   },
   {
-    "1": "zahlen/a.mp3",
-    "2": "zahlen/b.mp3",
-    "3": "zahlen/c.mp3",
-    "4": "zahlen/d.mp3",
-    "5": "zahlen/e.mp3",
-    "6": "zahlen/f.mp3",
-    "7": "zahlen/g.mp3",
-    "8": "zahlen/h.mp3",
-    "9": "zahlen/i.mp3",
-    "10": "zahlen/j.mp3",
-    "11": "zahlen/k.mp3",
-    "12": "zahlen/l.mp3",
-    "13": "zahlen/m.mp3",
-    "14": "zahlen/n.mp3",
-    "15": "zahlen/o.mp3"
+    "1": "zahlen/2.wav",
+    "2": "zahlen/4.wav",
+    "3": "zahlen/9.wav",
+    "4": "zahlen/14.wav",
+    "5": "zahlen/15.wav",
+    "6": "zahlen/19.wav",
+    "7": "zahlen/21.wav",
+    "8": "zahlen/30.wav",
+    "9": "zahlen/40.wav",
+    "10": "zahlen/50.wav",
+    "11": "zahlen/70.wav",
+    "12": "zahlen/100.wav",
+    "13": "zahlen/110.wav",
+    "14": "zahlen/120.wav",
+    "15": "zahlen/122.wav"
   }
 ]

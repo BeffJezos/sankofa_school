@@ -333,7 +333,7 @@ class _QuizHomeState extends State<QuizHome> {
                       Row(
                         children: [
                           quizcard(
-                            "wegweisung",
+                            "Wegweisung",
                             images[10],
                             des[10],
                             colours1[1],

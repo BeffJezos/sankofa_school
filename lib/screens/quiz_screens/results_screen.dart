@@ -1,5 +1,7 @@
+import 'package:flutter/cupertino.dart';
 import 'package:sankofa_school/screens/quiz_screens/quizhome_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 
 class Resultpage extends StatefulWidget {
   int marks;
@@ -20,22 +22,24 @@ class _ResultpageState extends State<Resultpage> {
   ];
 
   late String message;
+  late String message2;
   late String image;
+
 
   @override
   void initState() {
     if (marks < 50) {
       image = images[2];
-      message = "Strenge dich beim nächsten Mal mehr an!\n" +
-          "Dein Ergebnis: $marks Punkte!";
+      message = "Strenge dich beim nächsten Mal mehr an\n";
+      message2 = "$marks Punkte";
     } else if (marks < 70) {
       image = images[1];
-      message = "Das war nicht schlecht, aber du kannst es besser!\n" +
-          "Dein Ergebnis: $marks Punkte!";
+      message = "Das war nicht schlecht, aber du kannst es besser\n";
+      message2 = "$marks Punkte";
     } else {
       image = images[0];
-      message =
-          "Du hast dich gut geschlagen!\n" + "Dein Ergebnis: $marks Punkte!";
+      message = "Du hast dich gut geschlagen\n";
+      message2 = "$marks Punkte";
     }
     super.initState();
   }
@@ -47,85 +51,105 @@ class _ResultpageState extends State<Resultpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Ergebnis",
-        ),
-      ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
+          Container(
+            height: 60,
+          ),
           Expanded(
             flex: 8,
-            child: Material(
-              elevation: 10.0,
-              child: Container(
-                child: Expanded(
-                  child: Column(
-                    children: <Widget>[
-                      Material(
-                        child: Container(
-                          color: Color.fromRGBO(255, 87, 87, 1),
-                          width: 400.0,
-                          height: 380.0,
-                          child: ClipRect(
-                            child: Image(
-                              image: AssetImage(
-                                image,
-                              ),
-                            ),
-                          ),
-                        ),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Align(
+                alignment: Alignment.topCenter,
+                child: SafeArea(
+                  child: Container(
+                    height: 260,
+                    width: 350,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: Color.fromRGBO(250, 139, 134, 1),
+                        width: 5,
                       ),
-                      Padding(
-                          padding: EdgeInsets.symmetric(
-                            vertical: 10.0,
-                            horizontal: 15.0,
-                          ),
-                          child: Center(
-                            child: Text(
-                              message,
-                              style: TextStyle(
-                                fontSize: 16.0,
-                                fontFamily: "Roboto",
-                              ),
-                            ),
-                          )),
-                    ],
+                      shape: BoxShape.rectangle,
+                      image: DecorationImage(
+                        image: AssetImage(image),
+                        fit: BoxFit.fill,
+                      ),
+                    ),
                   ),
+                ),
+              ),
+            ),
+          ),
+          Container(
+            height: 200,
+            width: 360,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Center(
+                child: AutoSizeText(
+                  '$message',
+                  style: TextStyle(
+                      color: Colors.black, fontWeight: FontWeight.w500),
+                  minFontSize: 30,
+                  maxFontSize: 32,
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ),
+          ),
+          Container(
+            height: 100,
+            width: 360,
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Center(
+                child: AutoSizeText(
+                  '$message2',
+                  style: TextStyle(
+                      color: Color.fromRGBO(108, 127, 227, 1), fontWeight: FontWeight.w500),
+                  minFontSize: 38,
+                  maxFontSize: 40,
+                  textAlign: TextAlign.center,
                 ),
               ),
             ),
           ),
           Expanded(
             flex: 4,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                OutlineButton(
-                  onPressed: () {
-                    Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (context) => QuizHome(),
-                    ));
-                  },
-                  child: Text(
-                    "Weiter",
+            child: FlatButton(
+              child: Container(
+                height: 50,
+                width: 140,
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.topRight,
+                    colors: [
+                      Color.fromRGBO(250, 139, 134, 1),
+                      Color.fromRGBO(253, 156, 141, 1),
+                      Color.fromRGBO(253, 161, 143, 1),
+                      Color.fromRGBO(255, 171, 147, 1),
+                    ],
+                  ),
+                  borderRadius: BorderRadius.circular(28),
+                ),
+                child: Center(
+                  child: AutoSizeText(
+                    'Weiter',
                     style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: "Roboto",
-                      fontSize: 16.0,
-                    ),
+                        color: Color(0xFFf1faee), fontWeight: FontWeight.w600),
+                    minFontSize: 28,
+                    maxFontSize: 30,
                   ),
-                  padding: EdgeInsets.symmetric(
-                    vertical: 10.0,
-                    horizontal: 25.0,
-                  ),
-                  borderSide: BorderSide(
-                    width: 3.0,
-                    color: Color.fromRGBO(255, 116, 112, 1),
-                  ),
-                  splashColor: Color.fromRGBO(255, 116, 112, 1),
-                )
-              ],
+                ),
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, QuizHome.id);
+              },
             ),
           )
         ],

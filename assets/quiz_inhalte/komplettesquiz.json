@@ -6,12 +6,12 @@
     "4": "Was bedeutet ɛhe?",
     "5": "Was bedeutet Memeneda?",
     "6": "Was bedeutet Kwasiada?",
-    "7": "Was bedeutet Mepɛ sɛ meyɛ adwuma wɔ ha?",
-    "8": "Was bedeutet Mete ha?",
+    "7": "Was bedeutet Merebɛsera m’adamfo?",
+    "8": "Was bedeutet Merebɛsera m’abusuafoɔ?",
     "9": "Was bedeutet gyeene?",
     "10": "Was bedeutet mako?",
-    "11": "Was bedeutet aduonum?",
-    "12": "Was bedeutet ɔha?",
+    "11": "Welche Zahl ist dunum?",
+    "12": "Welche Zahl ist dunkron?",
     "13": "Was bedeutet Yɛbɛhyia biom?",
     "14": "Was bedeutet kɔ wo anim (Kɔwanim)",
     "15": "Was bedeutet patuo?"
@@ -42,12 +42,12 @@
       "b": "Sonntag"
     },
     "7": {
-      "a": "Ich möchte hier arbeiten",
-      "b": "Ich mache hier Urlaub"
+      "a": "Ich besuche mein*e Freund*in",
+      "b": "Ich arbeite hier"
     },
     "8": {
-      "a": "Ich wohne hier",
-      "b": "Ich möchte hier studieren"
+      "a": "Ich besuche meine Familie",
+      "b": "Ich möchte hier arbeiten"
     },
     "9": {
       "a": "Zwiebeln",
@@ -58,12 +58,12 @@
       "b": "Brot"
     },
     "11": {
-      "a": "50",
-      "b": "19"
-    },
-    "12": {
       "a": "100",
       "b": "40"
+    },
+    "12": {
+      "a": "19",
+      "b": "70"
     },
     "13": {
       "a": "Links abbiegen",
@@ -89,7 +89,7 @@
     "8": "Ich wohne hier",
     "9": "Zwiebeln",
     "10": "Pfeffer",
-    "11": "50",
+    "11": "70",
     "12": "100",
     "13": "Auf Wiedersehen",
     "14": "Geradeaus und Links",
@@ -98,18 +98,18 @@
   {
     "1": "farben/gold.mp3",
     "2": "farben/gelb.mp3",
-    "3": "richtungsangaben/dabeen_.mp3",
+    "3": "richtungsangaben/dabeen.mp3",
     "4": "richtungsangaben/ehe_.mp3",
     "5": "wochentage/Samstag.mp3",
     "6": "wochentage/Sonntag.mp3",
-    "7": "conversation/Mepe se meye adwuma wo ha.mp3",
-    "8": "conversation/Mete ha.mp3",
+    "7": "conversation/Merebeseramadamfo.mp3",
+    "8": "conversation/Merebeseramabusuafoo.mp3",
     "9": "lebensmittel/Zwiebeln.mp3",
-    "10": "lebensmittel/Chilli Pfeffer.mp3",
-    "11": "zahlen/j.mp3",
-    "12": "zahlen/l.mp3",
-    "13": "Wegweisung/Yebehyia biom.mp3",
-    "14": "Wegweisung/Kowanim.mp3",
+    "10": "lebensmittel/ChilliPfeffer.mp3",
+    "11": "zahlen/70.wav",
+    "12": "zahlen/100.wav",
+    "13": "wegweisung/Yebehyia.mp3",
+    "14": "wegweisung/Kowanim.mp3",
     "15": "tiere/patuo.mp3"
   }
 ]

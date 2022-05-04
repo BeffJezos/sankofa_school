@@ -230,7 +230,6 @@ class _quizpageState extends State<quizpage> {
       // just a print sattement to check the correct working
       // debugPrint(mydata[2]["1"] + " is equal to " + mydata[1]["1"][k]);
       colortoshow = wrong;
-      player.play(mydata[3][i.toString()]);
     }
     setState(() {
       // applying the changed color to the particular button that was selected
@@ -273,7 +272,7 @@ class _quizpageState extends State<quizpage> {
   }
 
   Future<bool> redirectTo() async {
-    Navigator.pushNamed(context, QuizHome.id);
+    Navigator.of(context).pop(true);
     return true;
   }
 
