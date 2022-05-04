@@ -5,6 +5,7 @@ import 'package:sankofa_school/screens/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 
 class Json extends StatelessWidget {
   // accept the langname as a parameter
@@ -300,14 +301,15 @@ class _quizpageState extends State<quizpage> {
                       opacity: opacity1,
                       duration: Duration(seconds: 1),
                       child: Center(
-                        child: Text(
+                        child: AutoSizeText(
                           mydata[0][i.toString()],
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontSize: 48.0,
                             fontFamily: "Circular",
                             fontWeight: FontWeight.bold,
                           ),
+                          minFontSize: 38,
+                          maxFontSize: 40,
                         ),
                       ),
                     ),
@@ -315,14 +317,15 @@ class _quizpageState extends State<quizpage> {
                       opacity: opacity2,
                       duration: Duration(seconds: 2),
                       child: Center(
-                        child: Text(
+                        child: AutoSizeText(
                           mydata[1][i.toString()],
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontSize: 48.0,
                             fontFamily: "Circular",
                             fontWeight: FontWeight.bold,
                           ),
+                          minFontSize: 38,
+                          maxFontSize: 40,
                         ),
                       ),
                     ),

@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen>
                             child: AutoSizeText(
                               items,
                               style:
-                                  TextStyle(color: Colors.white, fontSize: 20),
+                                  TextStyle(color: Colors.white),
                               maxLines: 2,
                             ),
                           ),

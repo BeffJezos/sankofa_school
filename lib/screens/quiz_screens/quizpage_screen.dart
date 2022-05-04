@@ -40,7 +40,7 @@ class Getjson extends StatelessWidget {
       assettoload = "assets/quiz_inhalte/tierequiz.json";
     } else if (langname == "Über mich") {
       assettoload = "assets/quiz_inhalte/aboutmequiz.json";
-    } else if (langname == "wegweisung") {
+    } else if (langname == "Wegweisung") {
       assettoload = "assets/quiz_inhalte/wegweisungsquiz.json";
     } else if (langname == "Wochentage") {
       assettoload = "assets/quiz_inhalte/wochentagequiz.json";
