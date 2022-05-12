@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sankofa_school/screens/mainscreens/home_screen.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 import 'package:sankofa_school/screens/mainscreens/about_screen.dart';
 import 'settings_screen.dart';
@@ -44,7 +45,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   GradientText(
-                    'SANKOFA',
+                    'SANKOFA SRACHSCHULE',
                     style: TextStyle(fontWeight: FontWeight.bold),
                     colors: [
                       Color.fromRGBO(250, 139, 134, 1),

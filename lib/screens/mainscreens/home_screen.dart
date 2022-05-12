@@ -84,28 +84,30 @@ class _HomeScreenState extends State<HomeScreen>
                           ));
                         },
                         child: Padding(
-                          padding: const EdgeInsets.fromLTRB(0, 16, 0, 0),
+                          padding: const EdgeInsets.fromLTRB(0, 8, 0, 0),
                           child: Align(
                             alignment: Alignment.centerLeft,
                             child: AutoSizeText(
                               items,
-                              style:
-                                  TextStyle(color: Colors.white),
+                              style: TextStyle(color: Colors.white),
                               maxLines: 2,
+                              minFontSize: 20,
                             ),
                           ),
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(4.0),
                         child: Align(
                           alignment: Alignment.bottomLeft,
                           child: Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(10.0),
                             child: AutoSizeText(
                               descriptions,
                               style: TextStyle(color: Colors.white),
                               maxLines: 2,
+                              minFontSize: 14,
+                              maxFontSize: 14,
                             ),
                           ),
                         ),
@@ -203,7 +205,7 @@ class _HomeScreenState extends State<HomeScreen>
                           ));
                         },
                         child: Padding(
-                          padding: const EdgeInsets.fromLTRB(0, 16, 0, 0),
+                          padding: const EdgeInsets.fromLTRB(0, 8, 0, 0),
                           child: Align(
                             alignment: Alignment.centerLeft,
                             child: AutoSizeText(
@@ -322,7 +324,7 @@ class _HomeScreenState extends State<HomeScreen>
                           ));
                         },
                         child: Padding(
-                          padding: const EdgeInsets.fromLTRB(0, 16, 0, 0),
+                          padding: const EdgeInsets.fromLTRB(0, 8, 0, 0),
                           child: Align(
                             alignment: Alignment.centerLeft,
                             child: AutoSizeText(
@@ -396,7 +398,7 @@ class _HomeScreenState extends State<HomeScreen>
     "Fragewörter",
     "Konversation",
     "Lebensmittel",
-    "Richtungsangaben",
+    "Richtungen",
     "Tiere",
     "Über mich",
     "wegweisung",
@@ -409,16 +411,16 @@ class _HomeScreenState extends State<HomeScreen>
     "Lerne die Buchstaben von Twi kennen",
     "Die typischen Gruß- und Abschiedsformen",
     "Alles was du zu Einkaufen brauchst",
-    "Eine kleine Einführung in die Welt der Farben",
+    "Eine Einführung in die Welt der Farben",
     "Lerne die notwendigen Fragewörter kennen",
-    "Die grundlegenden Sprachmittel für jede Konversation",
+    "Die grundlegenden Sprachmittel",
     "Eine EInführung über die Lebensmittel",
-    "Alle üblichen Richtungsangaben werde dir hier aufgezeigt",
+    "Alle üblichen Richtungsangaben",
     "Lerne die Tiere auf Twi kennen",
-    "Alles was du brauchst, um dich vorzustellen",
+    "Alles für den Smalltalk",
     "Hier lernst du wie du nach dem Weg fragst",
     "Auf eine erfolgreiche Woche",
-    "Hier lernst du die wichtigsten Zahlen kennen",
+    "Die wichtigsten Zahlen",
     "Wie spät ist es?",
   ];
 
@@ -523,8 +525,8 @@ class _HomeScreenState extends State<HomeScreen>
                       Padding(
                         padding: const EdgeInsets.fromLTRB(7.5, 7.5, 0, 0),
                         child: Container(
-                          height: 25,
-                          width: 25,
+                          height: 40,
+                          width: 40,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             gradient: LinearGradient(
@@ -536,15 +538,15 @@ class _HomeScreenState extends State<HomeScreen>
                               ],
                             ),
                           ),
+                          child: Center(
+                            child: AutoSizeText(
+                              "Q",
+                              style: TextStyle(color: Colors.white),
+                              minFontSize: 26,
+                              maxFontSize: 28,
+                            ),
+                          ),
                         ),
-                      ),
-                      Container(
-                        height: 40,
-                        width: 40,
-                        decoration: BoxDecoration(
-                            border: Border.all(width: 1.5, color: Colors.black),
-                            shape: BoxShape.circle,
-                            color: Colors.transparent),
                       ),
                     ],
                   ),
@@ -754,7 +756,7 @@ class _HomeScreenState extends State<HomeScreen>
                                 colours4[0],
                               ),
                               card(
-                                "Richtungsangaben",
+                                "Richtungen",
                                 titel[1],
                                 items[7],
                                 pictures[7],

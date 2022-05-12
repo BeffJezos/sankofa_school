@@ -272,7 +272,7 @@ class _quizpageState extends State<quizpage> {
   }
 
   Future<bool> redirectTo() async {
-    Navigator.of(context).pop(true);
+    Navigator.pushNamed(context, QuizHome.id);
     return true;
   }
 

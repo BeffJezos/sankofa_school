@@ -29,17 +29,17 @@ class _QuizHomeState extends State<QuizHome> {
   ];
 
   List<String> des = [
-    "Ein Quiz über alle in der App behandelten Themen der Sprache Twi. Viel Glück!",
-    "Ein Quiz über die üblichen Begrüßungen auf Twi.",
+    "Ein Quiz über alle in der App behandelten Themen.",
+    "Ein Quiz über die üblichen Begrüßungen.",
     "Ein Quiz über die wichtigsten Worte beim Einkaufen.",
     "Ein Quiz über die Twi-Farben.",
     "Ein Quiz über die Fragenwörter der Sprache Twi.",
-    "Ein Quiz über die wichtigsten Sprachgebrauche in einer Konversation.",
+    "Ein Quiz über die wichtigsten Sprachgebrauche.",
     "Ein Quiz über die Lebensmittel der Sprache Twi.",
-    "Ein Quit über die richtigsten Richtungsangaben.",
+    "Ein Quit über die wichtigsten Richtungsangaben.",
     "Ein Quiz über die Tiere der Sprache Twi.",
-    "Ein Quiz über über den Sprachgebrauch wenn man sich vorstellt.",
-    "EIn Quiz über den gängigen Sprachgebrauch bei einer wegweisung.",
+    "Ein Quiz über über das sich Vorstellen.",
+    "EIn Quiz über die gängigen Wegweisungen.",
     "Ein Quiz über die Wochentage der Sprache Twi.",
     "Ein Quiz über die Zahlen der Sprache Twi.",
     "Ein Quiz über die Zeitangaben der Sprache Twi.",
@@ -91,7 +91,7 @@ class _QuizHomeState extends State<QuizHome> {
                     child: Container(
                       height: 190,
                       width: 170,
-                      margin: EdgeInsets.fromLTRB(4, 4, 4, 4),
+                      margin: EdgeInsets.all(4),
                       child: Stack(
                         children: [
                           Padding(
@@ -114,9 +114,9 @@ class _QuizHomeState extends State<QuizHome> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.fromLTRB(16, 16, 16, 4),
+                            padding: const EdgeInsets.all(8.0),
                             child: Align(
-                              alignment: Alignment.centerLeft,
+                              alignment: Alignment.center,
                               child: SafeArea(
                                 child: AutoSizeText(
                                   langname,
@@ -131,16 +131,20 @@ class _QuizHomeState extends State<QuizHome> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+                            padding: const EdgeInsets.fromLTRB(24, 0, 16, 8),
                             child: Align(
-                              alignment: Alignment.bottomLeft,
-                              child: AutoSizeText(
-                                des,
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 16),
-                                minFontSize: 14,
-                                maxFontSize: 14,
-                                maxLines: 3,
+                              alignment: Alignment.bottomCenter,
+                              child: SafeArea(
+                                child: AutoSizeText(
+                                  des,
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                  minFontSize: 14,
+                                  maxFontSize: 16,
+                                  maxLines: 3,
+                                  textAlign: TextAlign.left,
+                                ),
                               ),
                             ),
                           ),

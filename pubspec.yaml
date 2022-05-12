@@ -78,7 +78,7 @@ flutter:
     - assets/conversation/
     - assets/hellobye/
     - assets/shopping/
-    - assets/wegweisung/
+    - assets/wegweisungen/
     - assets/Icons/
     - images/akwasi.jpg
     - images/SankofaRichtigesLogo.png
@@ -130,6 +130,7 @@ flutter:
     - assets/quiz_inhalte/tierequiz.json
     - assets/quiz_inhalte/wochentagequiz.json
     - assets/quiz_inhalte/zeitangabenquiz.json
+    - assets/quiz_inhalte/wegweisungsquiz.json
     - assets/learning/alphabet.json
     - assets/learning/colours.json
     - assets/learning/consonants.json

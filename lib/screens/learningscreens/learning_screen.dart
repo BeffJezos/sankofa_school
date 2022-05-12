@@ -34,7 +34,7 @@ class Json extends StatelessWidget {
       assettoload = "assets/learning/shopping.json";
     } else if (topicname == "Konversation") {
       assettoload = "assets/learning/conversations.json";
-    } else if (topicname == "Richtungsangaben") {
+    } else if (topicname == "Richtungen") {
       assettoload = "assets/learning/directions.json";
     } else if (topicname == "Über mich") {
       assettoload = "assets/learning/aboutme.json";

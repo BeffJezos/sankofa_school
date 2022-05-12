@@ -92,7 +92,7 @@ class _AboutState extends State<About> {
                           padding: const EdgeInsets.all(8.0),
                           child: AutoSizeText(
                               'Sankofa ist ein altes westafrikanisches Symbol und bedeutet soviel wie “zurück zu du den Wurzeln”'
-                              ' (um zu finden was verloren ging).Viele Afrikaner in Deutschland haben in der Vergangenheit leider versäumt,'
+                              ' (um zu finden was verloren ging). Viele Afrikaner in Deutschland haben in der Vergangenheit leider versäumt,'
                               ' ihre Heimat kennen zu lernen.',
                               textAlign: TextAlign.start,
                               style: kNormalStyle),
@@ -110,8 +110,8 @@ class _AboutState extends State<About> {
                           padding: const EdgeInsets.all(8.0),
                           child: AutoSizeText(
                               'Wenn Sprache verloren geht, geht auch unwiderruflich die Kultur'
-                              ' zu Grunde.Sankofa Sprachkurs möchte helfen, das Versäumte nachzuholen und stellt deshalb Unterrichtseinheiten'
-                              ' zur Verfügung.Unser Ziel ist es, allen Interessierten die Sprache, sowie die Kultur und Geschichte zu vermitteln.',
+                              ' zu Grunde. Sankofa Sprachkurs möchte helfen, das Versäumte nachzuholen und stellt deshalb Unterrichtseinheiten'
+                              ' zur Verfügung. Unser Ziel ist es, allen Interessierten die Sprache, sowie die Kultur und Geschichte zu vermitteln.',
                               textAlign: TextAlign.start,
                               style: kNormalStyle),
                         ),
