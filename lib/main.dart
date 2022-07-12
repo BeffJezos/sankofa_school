@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
-import 'mainscreens/drawer_screen.dart';
-import 'mainscreens/about_screen.dart';
-import 'mainscreens/settings_screen.dart';
-import 'mainscreens/home_screen.dart';
-import 'quiz_screens/quizhome_screen.dart';
-import 'mainscreens/alphabetoverview.dart';
-import 'mainscreens/numbersoverview.dart';
+import 'screens/mainscreens/drawer_screen.dart';
+import 'screens/mainscreens/about_screen.dart';
+import 'screens/mainscreens/settings_screen.dart';
+import 'screens/mainscreens/home_screen.dart';
+import 'screens/quiz_screens/quizhome_screen.dart';
+import 'screens/mainscreens/alphabetoverview.dart';
+import 'screens/mainscreens/numbersoverview.dart';
 
 void main() async {
   await Future.delayed(
