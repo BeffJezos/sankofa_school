@@ -1,6 +1,6 @@
 [
   {
-    "1": "Katzei",
+    "1": "Katze",
     "2": "Hund",
     "3": "Maus",
     "4": "Eidechse",
@@ -56,7 +56,7 @@
   {
     "1": "tiere/okraagrinamos.mp3",
     "2": "tiere/okraman.mp3",
-    "3": "akura.mp3",
+    "3": "tiere/akura.mp3",
     "4": "tiere/kotere.mp3",
     "5": "tiere/tetea.mp3",
     "6": "tiere/ntutumme.mp3",
@@ -71,7 +71,7 @@
     "15": "tiere/sisire.mp3",
     "16": "tiere/okraagrinamos.mp3",
     "17": "tiere/okraman.mp3",
-    "18": "akura.mp3",
+    "18": "tiere/akura.mp3",
     "19": "tiere/kotere.mp3",
     "20": "tiere/tetea.mp3",
     "21": "tiere/ntutumme.mp3",

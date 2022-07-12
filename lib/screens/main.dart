@@ -8,11 +8,14 @@ import 'quiz_screens/quizhome_screen.dart';
 import 'mainscreens/alphabetoverview.dart';
 import 'mainscreens/numbersoverview.dart';
 
-void main() {
+void main() async {
+  await Future.delayed(
+    Duration(seconds: 3),
+  );
   runApp(
     MaterialApp(
       title: 'Sankofa_language_school',
-      home: MyApp(),
+      home: HomePage(),
       theme: ThemeData(fontFamily: "Circular"),
       routes: {
         HomeScreen.id: (context) => HomeScreen(),
@@ -25,28 +28,6 @@ void main() {
       },
     ),
   );
-}
-
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => new _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return new SplashScreen(
-      seconds: 2,
-      navigateAfterSeconds: new HomePage(),
-      image: new Image.asset(
-        'images/SankofaRichtigesLogo.png',
-      ),
-      backgroundColor: Colors.white,
-      styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 200.0,
-      useLoader: false,
-    );
-  }
 }
 
 class HomePage extends StatelessWidget {
@@ -65,11 +46,9 @@ class HomePage extends StatelessWidget {
   }
 }
 
-
 // Todo: 5. Fortsetzen auf der HomePage
 //TODO Beim zurückgehen auf der gleichen Position wieder erscheinen und nicht ganz oben im Hauptmenü
 // TODO Ton beim Quiz
-
 
 //TODO Lore Audio wurde zweimal benutzt bei Konsonanten
 //TODO Audio für Begrüßungen, Über mich, Konversation, Einkaufen und wegweisung

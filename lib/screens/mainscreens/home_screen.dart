@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-
 import 'package:flutter/services.dart';
 import 'package:sankofa_school/screens/quiz_screens/quizhome_screen.dart';
 import 'package:sankofa_school/screens/learningscreens/learning_screen.dart';
 import 'package:sankofa_school/screens/learningscreens/second_learning_screen.dart';
 import 'package:sankofa_school/screens/learningscreens/third_learning_screen.dart';
-
 import 'package:sankofa_school/customcreations/progressBar.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
 
@@ -401,7 +399,7 @@ class _HomeScreenState extends State<HomeScreen>
     "Richtungen",
     "Tiere",
     "Über mich",
-    "wegweisung",
+    "Wegweisung",
     "Wochentage",
     "Zahlen",
     "Zeitangaben",
@@ -516,41 +514,6 @@ class _HomeScreenState extends State<HomeScreen>
                           );
                         },
                       ),
-                FlatButton(
-                  onPressed: () {
-                    Navigator.pushNamed(context, QuizHome.id);
-                  },
-                  child: Stack(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(7.5, 7.5, 0, 0),
-                        child: Container(
-                          height: 40,
-                          width: 40,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            gradient: LinearGradient(
-                              colors: [
-                                Color.fromRGBO(108, 127, 227, 1),
-                                Color.fromRGBO(104, 118, 226, 1),
-                                Color.fromRGBO(97, 105, 222, 1),
-                                Color.fromRGBO(92, 96, 222, 1),
-                              ],
-                            ),
-                          ),
-                          child: Center(
-                            child: AutoSizeText(
-                              "Q",
-                              style: TextStyle(color: Colors.white),
-                              minFontSize: 26,
-                              maxFontSize: 28,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                )
               ],
             ),
           ),
@@ -565,92 +528,56 @@ class _HomeScreenState extends State<HomeScreen>
                     width: 360,
                     decoration: BoxDecoration(
                         color: Colors.white,
+                        image: new DecorationImage(
+                          fit: BoxFit.cover,
+                          colorFilter: new ColorFilter.mode(
+                              Colors.black.withOpacity(1), BlendMode.dstATop),
+                          image: new AssetImage("images/QuizWidget.png"),
+                        ),
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(60),
-                          topLeft: Radius.circular(10),
-                          bottomRight: Radius.circular(10),
-                          bottomLeft: Radius.circular(10),
+                          topLeft: Radius.circular(60),
+                          bottomRight: Radius.circular(60),
+                          bottomLeft: Radius.circular(60),
                         ),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.grey.withOpacity(0.5),
+                            color: Colors.grey.withOpacity(0.3),
                             spreadRadius: 5,
                             blurRadius: 8,
                             offset: Offset(0, 1),
                           )
                         ]),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.end,
                       children: [
-                        Padding(
-                          padding: const EdgeInsets.all(12.0),
-                          child: Align(
-                            alignment: Alignment.topLeft,
-                            child: GradientText(
-                              'GRUNDLAGEN',
-                              style: TextStyle(
-                                fontSize: 12,
-                                fontWeight: FontWeight.bold,
-                              ),
-                              colors: [
-                                Color.fromRGBO(250, 139, 134, 1),
-                                Color.fromRGBO(253, 156, 141, 1),
-                                Color.fromRGBO(253, 161, 143, 1),
-                                Color.fromRGBO(255, 171, 147, 1),
-                              ],
-                            ),
-                          ),
-                        ),
                         Padding(
                           padding: const EdgeInsets.all(16.0),
                           child: Align(
-                            alignment: Alignment.topLeft,
-                            child: AutoSizeText(
-                              'Das Alphabet (Nsemfua)',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black),
-                              minFontSize: 26,
-                            ),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(12.0),
-                          child: Align(
-                            alignment: Alignment.topLeft,
-                            child: ProgressBar(),
-                          ),
-                        ),
-                        Align(
-                          alignment: Alignment.topLeft,
-                          child: FlatButton(
-                            child: Container(
-                              height: 35,
-                              width: 80,
-                              decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                  begin: Alignment.topLeft,
-                                  end: Alignment.topRight,
-                                  colors: [
-                                    Color.fromRGBO(250, 139, 134, 1),
-                                    Color.fromRGBO(253, 156, 141, 1),
-                                    Color.fromRGBO(253, 161, 143, 1),
-                                    Color.fromRGBO(255, 171, 147, 1),
-                                  ],
+                            alignment: Alignment.topRight,
+                            child: FlatButton(
+                              child: Container(
+                                height: 50,
+                                width: 110,
+                                decoration: BoxDecoration(
+                                  color: Colors.transparent,
+                                  border: Border.all(color: Colors.white),
+                                  borderRadius: BorderRadius.circular(30),
                                 ),
-                                borderRadius: BorderRadius.circular(18),
-                              ),
-                              child: Center(
-                                child: AutoSizeText(
-                                  'Weiter',
-                                  style: TextStyle(
-                                      color: Color(0xFFf1faee),
-                                      fontWeight: FontWeight.w600),
+                                child: Center(
+                                  child: AutoSizeText(
+                                    'QUIZ',
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold),
+                                    minFontSize: 26,
+                                  ),
                                 ),
                               ),
+                              onPressed: () {
+                                Navigator.pushNamed(context, QuizHome.id);
+                              },
                             ),
-                            onPressed: () {
-                              Navigator.pushNamed(context, QuizHome.id);
-                            },
                           ),
                         ),
                       ],
@@ -797,7 +724,7 @@ class _HomeScreenState extends State<HomeScreen>
                           Row(
                             children: [
                               card(
-                                "wegweisung",
+                                "Wegweisung",
                                 titel[1],
                                 items[10],
                                 pictures[10],
@@ -825,24 +752,24 @@ class _HomeScreenState extends State<HomeScreen>
                               thirdcard(
                                 "Zahlen",
                                 titel[1],
-                                items[13],
+                                items[12],
                                 pictures[13],
                                 descriptions[13],
-                                colours1[1],
-                                colours2[1],
-                                colours3[1],
-                                colours4[1],
-                              ),
-                              card(
-                                "Zeitangaben",
-                                titel[1],
-                                items[12],
-                                pictures[12],
-                                descriptions[12],
                                 colours1[0],
                                 colours2[0],
                                 colours3[0],
                                 colours4[0],
+                              ),
+                              card(
+                                "Zeitangaben",
+                                titel[1],
+                                items[13],
+                                pictures[12],
+                                descriptions[12],
+                                colours1[1],
+                                colours2[1],
+                                colours3[1],
+                                colours4[1],
                               ),
                             ],
                           )

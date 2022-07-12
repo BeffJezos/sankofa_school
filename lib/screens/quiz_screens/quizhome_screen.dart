@@ -28,23 +28,6 @@ class _QuizHomeState extends State<QuizHome> {
     "assets/images/icons/timesicon.png",
   ];
 
-  List<String> des = [
-    "Ein Quiz über alle in der App behandelten Themen.",
-    "Ein Quiz über die üblichen Begrüßungen.",
-    "Ein Quiz über die wichtigsten Worte beim Einkaufen.",
-    "Ein Quiz über die Twi-Farben.",
-    "Ein Quiz über die Fragenwörter der Sprache Twi.",
-    "Ein Quiz über die wichtigsten Sprachgebrauche.",
-    "Ein Quiz über die Lebensmittel der Sprache Twi.",
-    "Ein Quit über die wichtigsten Richtungsangaben.",
-    "Ein Quiz über die Tiere der Sprache Twi.",
-    "Ein Quiz über über das sich Vorstellen.",
-    "EIn Quiz über die gängigen Wegweisungen.",
-    "Ein Quiz über die Wochentage der Sprache Twi.",
-    "Ein Quiz über die Zahlen der Sprache Twi.",
-    "Ein Quiz über die Zeitangaben der Sprache Twi.",
-  ];
-
   List<Color> colours1 = [
     Color.fromRGBO(250, 139, 134, 1),
     Color.fromRGBO(108, 127, 227, 1),
@@ -67,8 +50,8 @@ class _QuizHomeState extends State<QuizHome> {
   ];
 
   @override
-  Widget quizcard(String langname, String image, String des, Color colours1,
-      Color colours2, Color colours3, Color colours4) {
+  Widget quizcard(String langname, String image, Color colours1, Color colours2,
+      Color colours3, Color colours4) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: InkWell(
@@ -86,7 +69,7 @@ class _QuizHomeState extends State<QuizHome> {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 190,
+                    height: 160,
                     width: 170,
                     child: Container(
                       height: 190,
@@ -95,13 +78,13 @@ class _QuizHomeState extends State<QuizHome> {
                       child: Stack(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(16.0),
                             child: Align(
                               alignment: Alignment.topCenter,
                               child: SafeArea(
                                 child: Container(
-                                  height: 70,
-                                  width: 70,
+                                  height: 80,
+                                  width: 80,
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
                                     image: DecorationImage(
@@ -114,36 +97,18 @@ class _QuizHomeState extends State<QuizHome> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(16.0),
                             child: Align(
-                              alignment: Alignment.center,
+                              alignment: Alignment.bottomCenter,
                               child: SafeArea(
                                 child: AutoSizeText(
                                   langname,
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold),
-                                  minFontSize: 16,
-                                  maxFontSize: 16,
-                                  maxLines: 2,
-                                ),
-                              ),
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.fromLTRB(24, 0, 16, 8),
-                            child: Align(
-                              alignment: Alignment.bottomCenter,
-                              child: SafeArea(
-                                child: AutoSizeText(
-                                  des,
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold),
-                                  minFontSize: 14,
-                                  maxFontSize: 16,
-                                  maxLines: 3,
-                                  textAlign: TextAlign.left,
+                                  minFontSize: 20,
+                                  maxFontSize: 20,
+                                  maxLines: 1,
                                 ),
                               ),
                             ),
@@ -229,7 +194,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Alle Themen",
                             images[0],
-                            des[0],
                             colours1[0],
                             colours2[0],
                             colours3[0],
@@ -238,7 +202,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Begrüßungen",
                             images[1],
-                            des[1],
                             colours1[1],
                             colours2[1],
                             colours3[1],
@@ -251,7 +214,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Einkaufen",
                             images[2],
-                            des[2],
                             colours1[2],
                             colours2[2],
                             colours3[2],
@@ -260,7 +222,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Farben",
                             images[3],
-                            des[3],
                             colours1[0],
                             colours2[0],
                             colours3[0],
@@ -273,7 +234,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Fragewörter",
                             images[4],
-                            des[4],
                             colours1[1],
                             colours2[1],
                             colours3[1],
@@ -282,7 +242,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Konversation",
                             images[5],
-                            des[5],
                             colours1[2],
                             colours2[2],
                             colours3[2],
@@ -295,7 +254,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Lebensmittel",
                             images[6],
-                            des[6],
                             colours1[0],
                             colours2[0],
                             colours3[0],
@@ -304,7 +262,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Richtungen",
                             images[7],
-                            des[7],
                             colours1[1],
                             colours2[1],
                             colours3[1],
@@ -317,7 +274,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Tiere",
                             images[8],
-                            des[8],
                             colours1[2],
                             colours2[2],
                             colours3[2],
@@ -326,7 +282,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Über mich",
                             images[9],
-                            des[9],
                             colours1[0],
                             colours2[0],
                             colours3[0],
@@ -339,7 +294,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Wegweisung",
                             images[10],
-                            des[10],
                             colours1[1],
                             colours2[1],
                             colours3[1],
@@ -348,7 +302,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Wochentage",
                             images[11],
-                            des[11],
                             colours1[2],
                             colours2[2],
                             colours3[2],
@@ -361,7 +314,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Zahlen",
                             images[12],
-                            des[12],
                             colours1[0],
                             colours2[0],
                             colours3[0],
@@ -370,7 +322,6 @@ class _QuizHomeState extends State<QuizHome> {
                           quizcard(
                             "Zeitangaben",
                             images[13],
-                            des[13],
                             colours1[1],
                             colours2[1],
                             colours3[1],

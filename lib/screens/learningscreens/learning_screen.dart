@@ -38,12 +38,13 @@ class Json extends StatelessWidget {
       assettoload = "assets/learning/directions.json";
     } else if (topicname == "Über mich") {
       assettoload = "assets/learning/aboutme.json";
-    } else if (topicname == "wegweisung") {
+    } else if (topicname == "Wegweisung") {
       assettoload = "assets/learning/wheretogo.json";
     } else if (topicname == "Lebensmittel") {
       assettoload = "assets/learning/food.json";
+    } else if (topicname == "Tiere") {
+      assettoload = "assets/learning/animals.json";
     }
-
   }
 
   @override
@@ -142,6 +143,10 @@ class _quizpageState extends State<quizpage> {
 
   void repeataudio() {
     setState(() {
+      changeOpacityAgain1();
+      changeOpacityAgain2();
+      changeOpacityAgain3();
+      changeOpacityAgain4();
       player.play(mydata[2][i.toString()]);
     });
   }
@@ -268,6 +273,38 @@ class _quizpageState extends State<quizpage> {
       setState(() {
         opacity2 = opacity2 == 0.0 ? 1.0 : 1.0;
         opacity2 = opacity2 == 0.0 ? 0.0 : 1.0;
+      });
+    });
+  }
+
+  changeOpacityAgain1() {
+    Future.delayed(Duration(milliseconds: 10), () {
+      setState(() {
+        opacity2 = opacity2 == 0.0 ? 1.0 : 0.0;
+      });
+    });
+  }
+
+  changeOpacityAgain2() {
+    Future.delayed(Duration(seconds: 2), () {
+      setState(() {
+        opacity1 = opacity1 == 0.0 ? 1.0 : 1.0;
+      });
+    });
+  }
+
+  changeOpacityAgain3() {
+    Future.delayed(Duration(seconds: 3), () {
+      setState(() {
+        opacity1 = opacity1 == 0.0 ? 1.0 : 0.0;
+      });
+    });
+  }
+
+  changeOpacityAgain4() {
+    Future.delayed(Duration(seconds: 4), () {
+      setState(() {
+        opacity2 = opacity2 == 0.0 ? 1.0 : 0.0;
       });
     });
   }

@@ -34,23 +34,23 @@ class _AlphabetOverviewState extends State<AlphabetOverview> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     AlphabetRectangleWithText(
-                      functionality: 'Aa [aa]',
+                      functionality: 'Aa',
                       input: 'a',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Bb [bä]',
+                      functionality: 'Bb',
                       input: 'b',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Dd [dä]',
+                      functionality: 'Dd',
                       input: 'c',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Ee [ee]',
+                      functionality: 'Ee',
                       input: 'd',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Ɛɛ [ää]',
+                      functionality: 'Ɛɛ',
                       input: 'e',
                     ),
                   ],
@@ -62,23 +62,23 @@ class _AlphabetOverviewState extends State<AlphabetOverview> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     AlphabetRectangleWithText(
-                      functionality: 'Ff [fä]',
+                      functionality: 'Ff',
                       input: 'f',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Gg [gä]',
+                      functionality: 'Gg',
                       input: 'g',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Hh [hä]',
+                      functionality: 'Hh',
                       input: 'h',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Ii [ii]',
+                      functionality: 'Ii',
                       input: 'i',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Kk [kä]',
+                      functionality: 'Kk',
                       input: 'j',
                     ),
                   ],
@@ -90,23 +90,23 @@ class _AlphabetOverviewState extends State<AlphabetOverview> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     AlphabetRectangleWithText(
-                      functionality: 'Ll [el]',
+                      functionality: 'Ll',
                       input: 'k',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Mm [mm]',
+                      functionality: 'Mm',
                       input: 'l',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Nn [nn]',
+                      functionality: 'Nn',
                       input: 'm',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Oo [oo] ',
+                      functionality: 'Oo',
                       input: 'n',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Ɔɔ [ɔrr]',
+                      functionality: 'Ɔɔ',
                       input: 'o',
                     ),
                   ],
@@ -118,23 +118,23 @@ class _AlphabetOverviewState extends State<AlphabetOverview> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     AlphabetRectangleWithText(
-                      functionality: 'Pp [pä]',
+                      functionality: 'Pp',
                       input: 'p',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Rr [rä]',
+                      functionality: 'Rr',
                       input: 'q',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Ss [sä]',
+                      functionality: 'Ss',
                       input: 'r',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Tt [tä]',
+                      functionality: 'Tt',
                       input: 's',
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Uu [uu]',
+                      functionality: 'Uu',
                       input: 't',
                     ),
                   ],
@@ -146,14 +146,14 @@ class _AlphabetOverviewState extends State<AlphabetOverview> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     AlphabetRectangleWithText(
-                      functionality: 'Ww [wä]',
+                      functionality: 'Ww',
                       input: 'u',
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                     ),
                     AlphabetRectangleWithText(
-                      functionality: 'Yy [jä]',
+                      functionality: 'Yy',
                       input: 'v',
                     ),
                   ],

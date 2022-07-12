@@ -66,8 +66,8 @@ class _AboutState extends State<About> {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(60),
-                    topLeft: Radius.circular(10),
+                    topRight: Radius.circular(50),
+                    topLeft: Radius.circular(50),
                     bottomRight: Radius.circular(10),
                     bottomLeft: Radius.circular(10),
                   ),

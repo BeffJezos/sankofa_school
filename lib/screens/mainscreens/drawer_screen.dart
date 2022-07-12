@@ -55,7 +55,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                     ],
                   ),
                   Text(
-                    'aktives Abonnement',
+                    'Akwaaba',
                     style: TextStyle(
                         color: Colors.black, fontWeight: FontWeight.bold),
                   )

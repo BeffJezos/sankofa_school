@@ -139,7 +139,7 @@ class _ResultpageState extends State<Resultpage> {
                 ),
                 child: Center(
                   child: AutoSizeText(
-                    'Weiter',
+                    'OK',
                     style: TextStyle(
                         color: Color(0xFFf1faee), fontWeight: FontWeight.w600),
                     minFontSize: 28,
