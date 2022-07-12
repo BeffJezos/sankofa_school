@@ -1,12 +1,13 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
-import 'package:sankofa_school/screens/main.dart';
 import 'package:sankofa_school/screens/mainscreens/alphabetoverview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:auto_size_text/auto_size_text.dart';
+
+import '../../main.dart';
 
 class SecondJson extends StatelessWidget {
   // accept the langname as a parameter
