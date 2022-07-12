@@ -13,6 +13,7 @@ void main() async {
   );
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Sankofa_language_school',
       home: HomePage(),
       theme: ThemeData(fontFamily: "Circular"),
